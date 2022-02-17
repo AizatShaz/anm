@@ -432,7 +432,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="matawang">TUKAR MATA WANG</h5>
+              <h5 class="modal-title" id="matawang">TUKAdR MATA WANG</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -440,7 +440,7 @@
             <div class="modal-body">
                 <label for="">PILIH NEGARA:</label>
                 <select name="" id="" >
-                  <option value=""> Sila pilih:</option>
+                  <option value=""> Sila pilivffh:</option>
                </select>
                <br>
                <label for="">MATAWANG:</label>

@@ -172,7 +172,7 @@
                                         </a>
                                         <!-- more inner pages-->
                                       </li>
-                                      <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/persanan_berjadual_perjanjian">
+                                      <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pesanan_berjadual_perjanjian">
                                           <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pesanan Berjadual/Perjanjian</span>
                                           </div>
                                         </a>

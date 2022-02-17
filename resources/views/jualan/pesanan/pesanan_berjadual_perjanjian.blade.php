@@ -6,10 +6,10 @@
     @csrf
     <h1>PESANAN BERJADUAL/PERJANJIAN</h1>
 <label for="">NAMA PELANGGAN:</label>
-<input type="tel" id="" name="" >
+<input type="text" id="" name="" >
 <br>
 <label for="">NO AKAUN PELANGGAN:</label>
-<input type="tel" id="" name="" >
+<input type="text" id="" name="" >
 <br>
 <button>CARIAN</button>
 <h5>CARIAN NAMA PELANGGAN: RUMBIA</h5>

@@ -6,10 +6,10 @@
 <form action="">
     @csrf
     <label for="">NAMA PELANGGAN:</label>
-<input type="tel" id="" name="" >
+<input type="text" id="" name="" >
 <br>
 <label for="">NO PERMOHONAN SEBUTHARGA : NM/RFQ/</label>
-<input type="tel" id="" name="" >
+<input type="text" id="" name="" >
 <br>
 <label for="">*Cth : NM / RFQ / 2010-000000</label>
 <br>

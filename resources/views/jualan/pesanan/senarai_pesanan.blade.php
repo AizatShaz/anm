@@ -17,7 +17,7 @@
     <thead>
         <tr>
             <th>BIL</th>
-            <th>NO. PESANAN BERJADUAL/PERJANJIAN</th>
+            <th>Ns</th>
             <th>TARIKH PERKHIDMATAN/NO JADUAL</th>
             <th>NAMA PELANGGAN</th>
             <th>TINDAKAN</th>

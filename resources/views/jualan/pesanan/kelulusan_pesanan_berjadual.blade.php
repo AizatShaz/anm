@@ -2,7 +2,9 @@
 @extends('bases')
 
 @section('content')   
-<h1>KELULUSAN PERSANAN BERJADUAL</h1>
+<form action="">
+    @csrf
+    <h1>KELULUSAN PERSANAN BERJADUAL</h1>
 <h5>SENARAI PESANAN BERJADUAL/PERJANJIAN:</h5>
 <table>
     <thead>
@@ -103,9 +105,9 @@
 <br>
 <label for="">CATATAN:</label>
 <textarea name="" id="" cols="30" rows="10"></textarea>
-<button>HANTAR</button>
+<button type="submit">HANTAR</button>
 
-
+</form>
 
 
 

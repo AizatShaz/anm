@@ -155,7 +155,7 @@
                 </ul>
                 
                       <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL3" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1"> Sebutharga</span>
+                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1"> SEBUTHARGA</span>
                     </div>
                   </a>
                   <ul class="nav collapse false" id="LOL3">
@@ -197,58 +197,56 @@
                 </a>
                 <ul class="nav collapse false" id="LOL2">
                   <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/jana_pesanan">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Jana Pesanan
-                                            
-                                          </span>
-                                          </div>
-                                        </a>
-                                        <!-- more inner pages-->
-                                      </li>
-                                      <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/kelulusan_pesanan">
-                                          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan Pesanan</span>
-                                          </div>
-                                        </a>
-                                        <!-- more inner pages-->
-                                      </li>
-                                      <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pesanan_berjadual_perjanjian">
-                                          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pesanan Berjadual/Perjanjian</span>
-                                          </div>
-                                        </a>
-                                        <!-- more inner pages-->
-                                      </li>
-                                      <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/kelulusan_pesanan_berjadual">
-                                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan Pesanan Berjadual</span>
-                                        </div>
-                                      </a>
-                                      <!-- more inner pages-->
-                                    </li>
-                                    <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/senarai_pesanan">
-                                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Pesanan</span>
-                                      </div>
-                                    </a>
-                                    <!-- more inner pages-->
-                                  </li>
-                                  <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/jana_pro_forma">
-                                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Jana Pro Forma</span>
-                                    </div>
-                                  </a>
-                                  <!-- more inner pages-->
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/senarai_pro_forma">
-                                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Pro Forma</span>
-                                  </div>
-                                </a>
-                                <!-- more inner pages-->
-                              </li>
-                              <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/laporan_pro_forma">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Laporan Pro Forma</span>
-                                </div>
-                              </a>
-                              <!-- more inner pages-->
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pro_forma_invois">
-                              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pro Forma Invois</span>
-                              </div>
+                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Jana Pesanan</span>
+                    </div>
+                  </a>
+                  <!-- more inner pages-->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/kelulusan_pesanan">
+                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan Pesanan</span>
+                    </div>
+                  </a>
+                  <!-- more inner pages-->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pesanan_berjadual_perjanjian">
+                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pesanan Berjadual/Perjanjian</span>
+                    </div>
+                  </a>
+                  <!-- more inner pages-->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/kelulusan_pesanan_berjadual">
+                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan Pesanan Berjadual</span>
+                  </div>
+                </a>
+                  <!-- more inner pages-->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/senarai_pesanan">
+                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Pesanan</span>
+                  </div>
+                </a>
+                <!-- more inner pages-->
+              </li>
+              <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/jana_pro_forma">
+                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Jana Pro Forma</span>
+                </div>
+              </a>
+              <!-- more inner pages-->
+            </li>
+            <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/senarai_pro_forma">
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Pro Forma</span>
+              </div>
+            </a>
+            <!-- more inner pages-->
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/laporan_pro_forma">
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Laporan Pro Forma</span>
+            </div>
+          </a>
+          <!-- more inner pages-->
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pro_forma_invois">
+          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pro Forma Invois</span>
+          </div>
                             </a>
                             <!-- more inner pages-->
                           </li>
@@ -292,49 +290,49 @@
                 <ul class="nav collapse false" id="LOL6">
                   <li class="nav-item"><a class="nav-link" href="/jualan/invois/jana_invois">
                       <div class="d-flex align-items-center">
-                        <span class="nav-link-text ps-1">Jana INVOIS</span>
+                        <span class="nav-link-text ps-1">Jana Invois</span>
                       </div>
                     </a>
                     <!-- more inner pages-->
                   </li>
                   <li class="nav-item"><a class="nav-link" href="/jualan/invois/senarai_invois">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SENARAI INVOIS</span>
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Invois</span>
                       </div>
                     </a>
                     <!-- more inner pages-->
                   </li>
                   <li class="nav-item"><a class="nav-link" href="/jualan/invois/nota_debit_nota_kredit">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">NOTA DEBIT/NOTA KREDIT</span>
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Nota Debit/Nota Kredit</span>
                       </div>
                     </a>
                     <!-- more inner pages-->
                   </li>
                   <li class="nav-item"><a class="nav-link" href="/jualan/invois/nota_debit_nota_kredit">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">NOTA DEBIT/NOTA KREDIT</span>
+                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Nota Debit/Nota Kredit</span>
                     </div>
                   </a>
                   <!-- more inner pages-->
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/jualan/invois/kelulusan">
-                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KELULUSAN</span>
+                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan</span>
                   </div>
                 </a>
                 <!-- more inner pages-->
               </li>
               <li class="nav-item"><a class="nav-link" href="/jualan/invois/jana_invois_kad_kerja_lama">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">JANA INVOIS (Kad Kerja Lama)</span>
+                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Jana Invois (Kad Kerja Lama)</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
             <li class="nav-item"><a class="nav-link" href="/jualan/invois/invois_lama">
-              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">INVOIS LAMA</span>
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Invois Lama</span>
               </div>
             </a>
             <!-- more inner pages-->
           </li>
           <li class="nav-item"><a class="nav-link" href="/jualan/invois/senarai_hitam">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SENARAI HITAM</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Hitam</span>
             </div>
           </a>
           <!-- more inner pages-->
@@ -347,61 +345,61 @@
 
         <ul class="nav collapse false" id="LOL7">
           <li class="nav-item"><a class="nav-link" href="/jualan/laporan/penyata_invois">
-              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PENYATA INVOIS</span>
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Penyata Invois</span>
               </div>
             </a>
             <!-- more inner pages-->
           </li>
           <li class="nav-item"><a class="nav-link" href="/jualan/laporan/akaun_subsidiari_abt">
-              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">AKAUN SUBSIDIARI ABT</span>
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Akaun Subsidiari ABT</span>
               </div>
             </a>
             <!-- more inner pages-->
           </li>
           <li class="nav-item"><a class="nav-link" href="/jualan/laporan/nota_debit_nota_kredit">
-              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">NOTA DEBIT/NOTA KREDIT</span>
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Nota Debit/Nota Kredit</span>
               </div>
             </a>
             <!-- more inner pages-->
           </li>
           <li class="nav-item"><a class="nav-link" href="/jualan/laporan/akaun_belum_terima">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">AKAUN BELUM TERIMA</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Akaun Belum Terima</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/laporan/prestasi_pusat_khidmat">
-          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PRESTASI PUSAT KHIDMAT</span>
+          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Prestasi Pusat Khidmat</span>
           </div>
         </a>
         <!-- more inner pages-->
       </li>
       <li class="nav-item"><a class="nav-link" href="/jualan/laporan/semakan_kutipan">
-        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SEMAKAN KUTIPAN</span>
+        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Semakan Kutipan</span>
         </div>
       </a>
       <!-- more inner pages-->
     </li>
     <li class="nav-item"><a class="nav-link" href="/jualan/laporan/prestasi_bulanan">
-      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PRESTASI BULANAN</span>
+      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Prestasi Bulanan</span>
       </div>
     </a>
     <!-- more inner pages-->
   </li>
   <li class="nav-item"><a class="nav-link" href="/jualan/laporan/prestasi_pelanggan">
-    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PRESTASI PELANGGAN</span>
+    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Prestasi Pelanggan</span>
     </div>
   </a>
   <!-- more inner pages-->
 </li>
 <li class="nav-item"><a class="nav-link" href="/jualan/laporan/penyata_suku_tahunan">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PENYATA SUKU TAHUNAN</span>
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Penyata Suku Tahunan</span>
   </div>
 </a>
 <!-- more inner pages-->
 </li>
 <li class="nav-item"><a class="nav-link" href="/jualan/laporan/statistik_penggunaan">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">STATISTIK PENGGUNAAN</span>
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Statisktik Penggunaan</span>
   </div>
 </a>
 <!-- more inner pages-->
@@ -413,19 +411,19 @@
       </a>
       <ul class="nav collapse false" id="LOL8">
         <li class="nav-item"><a class="nav-link" href="/jualan/nota_hantaran/jana_nota_hantaran">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">JANA NOTA HANTARAN</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Jana Nota Hantaran</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/nota_hantaran/nota_hantaran">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">NOTA HANTARAN</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Nota Hantaran</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/nota_hantaran/nota_hantaran_lama">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">NOTA HANTARAN LAMA</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Nota Hantaran Lama</span>
             </div>
           </a>
           <!-- more inner pages-->
@@ -437,43 +435,43 @@
       </a>
       <ul class="nav collapse false" id="LOL9">
         <li class="nav-item"><a class="nav-link" href="/jualan/pembayaran/bayaran">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">BAYARAN</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Bayaran</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/pembayaran/kemaskini_bayaran">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KEMASKINI BAYARAN</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kemaskini Bayaran</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/pembayaran/bayaran_invois_lama">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">BAYARAN INVOIS LAMA</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Bayaran Invois Lama</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/pembayaran/notis_pemberitahuan_resit">
-          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">NOTIS PEMBERITAHUAN RESIT</span>
+          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Notis Pemberitahu Resit</span>
           </div>
         </a>
         <!-- more inner pages-->
       </li>
       <li class="nav-item"><a class="nav-link" href="/jualan/pembayaran/senarai_import">
-        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SENARAI IMPORT</span>
+        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Import</span>
         </div>
       </a>
       <!-- more inner pages-->
     </li>
     <li class="nav-item"><a class="nav-link" href="/jualan/pembayaran/import">
-      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">IMPORT</span>
+      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Import</span>
       </div>
     </a>
     <!-- more inner pages-->
   </li>
   <li class="nav-item"><a class="nav-link" href="/jualan/pembayaran/lebihan_bayaran">
-    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">LEBIHAN BAYARAN</span>
+    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Lebihan Bayaran</span>
     </div>
   </a>
   <!-- more inner pages-->
@@ -486,109 +484,109 @@
                   </a>
                   <ul class="nav collapse false" id="LOL5">
                     <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_notifikasi">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD NOTIFIKASI</span>
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Notifikasi</span>
                         </div>
                       </a>
                       <!-- more inner pages-->
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/jualan/kod/servis_pusat_khidmat">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SERVIS PUSAT KHIDMAT</span>
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Servis Pusat Khidmat</span>
                         </div>
                       </a>
                       <!-- more inner pages-->
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_harga">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL HARGA</span>
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Profil Harga</span>
                         </div>
                       </a>
                       <!-- more inner pages-->
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_kakitangan">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL KAKITANGAN</span>
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Profil Kakitangan</span>
                       </div>
                     </a>
                     <!-- more inner pages-->
                   </li>
                   <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_syarikat">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL SYARIKAT</span>
+                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Profil Syarikat</span>
                     </div>
                   </a>
                   <!-- more inner pages-->
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/jualan/kod/pelanggan">
-                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PELANGGAN</span>
+                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pelanggan</span>
                   </div>
                 </a>
                 <!-- more inner pages-->
               </li>
               <li class="nav-item"><a class="nav-link" href="/jualan/kod/pelanggan_aktif">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PELANGGAN AKTIF</span>
+                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pelanggan Aktif</span>
                 </div>
               </a>
               <!-- more inner pages-->
             </li>
             <li class="nav-item"><a class="nav-link" href="/jualan/kod/pembekal">
-              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PEMBEKAL</span>
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pembekal</span>
               </div>
             </a>
             <!-- more inner pages-->
           </li>
           <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bank">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD BANK</span>
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Bank</span>
             </div>
           </a>
           <!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bayaran">
-          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD BAYARAN</span>
+          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Bayaran</span>
           </div>
         </a>
         <!-- more inner pages-->
       </li>
       <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_pusat_khidmat">
-        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PUSAT KHIDMAT</span>
+        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Pusat Khidmat</span>
         </div>
       </a>
       <!-- more inner pages-->
     </li>
     <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_iso">
-      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD ISO</span>
+      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Iso</span>
       </div>
     </a>
     <!-- more inner pages-->
   </li>
   <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_status_syarikat">
-    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD STATUS SYARIKAT</span>
+    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Status Syarikat</span>
     </div>
   </a>
   <!-- more inner pages-->
 </li>
 <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_negeri">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD NEGERI</span>
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Negeri</span>
   </div>
 </a>
 <!-- more inner pages-->
 </li>
 <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_daerah">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD DAERAH</span>
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Daerah</span>
   </div>
 </a>
 <!-- more inner pages-->
 </li>
 <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PROSES</span>
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Proses</span>
   </div>
 </a>
 <!-- more inner pages-->
 </li>
 <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses_config">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PROSES CONFIG</span>
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Proses Config</span>
   </div>
 </a>
 <!-- more inner pages-->
 </li>
 <li class="nav-item"><a class="nav-link" href="/jualan/kod/setup_format_sijil">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SETUP FORMAT SIJIL</span>
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Setup Format Sijil</span>
   </div>
 </a>
 <!-- more inner pages-->

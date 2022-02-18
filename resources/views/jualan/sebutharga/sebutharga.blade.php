@@ -88,8 +88,8 @@
      <td >300</td>
      <td >30000</td>
      <td >
-       <button>E</button>
-       <button>D</button>
+        <i class="fas fa-pen"><button></button></i>
+       <i class="far fa-trash-alt"><button></button></i>
      </td>
  </tr>
 </tbody>
@@ -165,7 +165,7 @@
      <td >300</td>
      <td >30000</td>
      <td >
-       <button>D</button>
+       <i class="far fa-trash-alt"><button></button></i>
      </td>
  </tr>
 </tbody>
@@ -206,7 +206,7 @@
      <td >300</td>
      <td >30000</td>
      <td >
-       <button>D</button>
+       <i class="far fa-trash-alt"><button></button></i>
      </td>
  </tr>
 </tbody>
@@ -234,7 +234,7 @@
     <tr>
       <td>1.</td>
       <td>"NAMA PERKHIDMATAN"</td>
-      <td><button>D</button></td>
+      <td><i class="far fa-trash-alt"><button></button></i></td>
     </tr>
     <tr>
       <td></td>
@@ -306,7 +306,7 @@
     <tr>
       <td>1.</td>
       <td>"NAMA PERKHIDMATAN"</td>
-      <td><button>D</button></td>
+      <td><i class="far fa-trash-alt"><button></button></i></td>
     </tr>
     <tr>
       <td></td>

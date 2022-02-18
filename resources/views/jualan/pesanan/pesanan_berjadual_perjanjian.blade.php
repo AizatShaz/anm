@@ -198,8 +198,8 @@
             <td>3000</td>
             <td>
                 <button>C</button>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
             <td>3000</td>
         </tr>
@@ -255,7 +255,7 @@
                 <td>1</td>
                 <td>1</td>
                 <td>PERATURAN PEMAKAIAN DOSIMETER PERSONAL (LENCANA LTD DAN FILEM)</td>
-                <td><button>E</button></td>
+                <td> <i class="fas fa-pen"><button></button></i></td>
             </tr>
         </tbody>
     </table>
@@ -420,8 +420,8 @@
                             <td>ADRESSADRESSADRESS,ADRESSADRESS</td>
                             <td>12</td>
                             <td>
-                                <button>E</button>
-                                <button>D</button>
+                                 <i class="fas fa-pen"><button></button></i>
+                                <i class="far fa-trash-alt"><button></button></i>
                             </td>
                         </tr>
                     </tbody>

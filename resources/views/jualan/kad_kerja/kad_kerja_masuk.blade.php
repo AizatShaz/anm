@@ -238,8 +238,8 @@
             </td>
 
             <td>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
                 <button>TAMBAH</button>
             </td>
         </tr>

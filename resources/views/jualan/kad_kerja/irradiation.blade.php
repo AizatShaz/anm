@@ -2,9 +2,10 @@
 @extends('bases')
 
 @section('content')   
+<h1>KAD KERJA - IRRADIATION</h1>
+
 <form action="">
     @csrf
-    <h1>KAD KERJA - IRRADIATION</h1>
     <br>
     <label for="">NAMA PELANGGAN:</label>
     <input type="text" name="" id="">
@@ -180,8 +181,8 @@
             <td>4</td>
             <td>MASK</td>
             <td>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -237,8 +238,8 @@
             <td>4</td>
             <td>MASK</td>
             <td>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -337,8 +338,8 @@
                 3
             </td>
             <td>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -435,8 +436,8 @@
             <td>Penyinaran</td>
             <td>4</td>
             <td>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -546,8 +547,8 @@
             <td>Penyinaran</td>
             <td>4</td>
             <td>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -663,7 +664,7 @@
                 </select>
             </td>
             <td>
-                <button>P</button>
+                <i class="fas fa-print"><button></button></i>
                 <button data-toggle="modal" data-target="#sijil">Detail</button>
             </td>
         </tr>
@@ -707,7 +708,7 @@
                 NM/3745
             </td>
             <td>
-                <button>P</button>
+                <i class="fas fa-print"><button></button></i>
                 <button data-toggle="modal" data-target="#sijil">Detail</button>
             </td>
         </tr>
@@ -715,9 +716,9 @@
 </table>
 <br>
 <br>
-<button>PREVIEW</button>
+<button data-toggle="modal" data-target="#preview">PREVIEW</button>
 <br>
-<button>P</button>
+<i class="fas fa-print"><button></button></i>
 <button>HAPUS</button>
 <button>TAMBAH</button>
 <h6>JUMLAH DALAM SENARAI: 2</h6>
@@ -741,7 +742,7 @@
                 "SIJIL PENYINARAN ISO"
             </td>
             <td>
-                <button>E</button>
+                 <i class="fas fa-pen"><button></button></i>
             </td>
         </tr>
         <tr>
@@ -753,18 +754,469 @@
                     "SIJIL PENYINARAN ISO 2"
                 </td>
                 <td>
-                    <button>E</button>
+                     <i class="fas fa-pen"><button></button></i>
                 </td>
             </tr>
     </tbody>
 </table>
+<br>
+<h5>PROSES SETUP SIJIL SELESAI</h5>
+<br>
+<label for="">TARIKH:</label>
+<input type="date" name="" id="">
+<br>
+<button>SELESAI</button>
+<br>
+
+<h5>PEMBAHAGIAN TUGAS</h5>
+<br>
+<label for="">TARIKH JANA KAD KERJA:</label>
+<input type="text" name="" id="">
+<br>
+<label for="">TARIKH PEMBAHAGIAN:</label>
+<input type="text" name="" id="">
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>BIL.</th>
+            <th>PROSES</th>
+            <th>STAF</th>
+            <th>TEMPOH(HARI) SEBENAR/JANGKA</th>
+            <th>STATUS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>PENDAFTARAN SINARAN</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>PRE PEYINARAN</td>
+            <td>"NAMA"</td>
+            <td>4</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>PEYINARAN</td>
+            <td>"NAMA"</td>
+            <td>5</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>PEMERIKSAAN AKHIR</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>SETUP SIJIL</td>
+            <td>"NAMA"</td>
+            <td>2</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>MUAT NAIK DOKUMEN</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>X
+            </td>
+        </tr>
+    </tbody>
+</table>
+<button>PAPAR AKTIVITI</button>
+<br>
+
+<br>
+<h4>MUAT NAIK DOKUMEN</h4>
+<br>
+<label for="">NO KAD KERJA:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<label for="">NO LAPORAN:</label>
+<input type="text" name="" id="">
+<br>
+<button>KEMASKINI</button>
+<br>
+<h5>AKTIVITI-AKTIVITI</h5>
+<br>
+<br>
+<label for="">TAJUK:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<label for="">CATATAN:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<label for="">FAIL:</label>
+<input type="file" name="" id="">
+<br>
+<p>(Fail : .doc, .ppt, .xls, .pdf, .txt, .zip, .jpeg, .gif, .png)</p>
+
+<br>
+
+<br>
+<h5>PROSES MUAT NAIK SELESAI</h5>
+<br>
+<label for="">TARIKH:</label>
+<input type="date" name="" id="">
+<br>
+<button>SELESAI</button>
+<br>
 
 
+<br>
+<h4>MUAT NAIK DOKUMEN</h4>
+<br>
+<label for="">NO KAD KERJA:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<label for="">NO LAPORAN:</label>
+<input type="text" name="" id="">
+<br>
+<button>KEMASKINI</button>
+<br>
+<h5>AKTIVITI-AKTIVITI</h5>
+<br>
+<br>
+<label for="">TAJUK:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<label for="">CATATAN:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<label for="">FAIL:</label>
+<input type="file" name="" id="">
+<br>
+<p>(Fail : .doc, .ppt, .xls, .pdf, .txt, .zip, .jpeg, .gif, .png)</p>
+
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>TAJUK</th>
+            <th>CATATAN</th>
+            <th>TINDAKAN</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>23-12-2021</td>
+            <td>
+                3
+            </td>
+            <td>
+                <i class="far fa-trash-alt"><button></button></i>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<h5>PROSES MUAT NAIK SELESAI</h5>
+<br>
+<label for="">TARIKH:</label>
+<input type="date" name="" id="">
+<br>
+<button>SELESAI</button>
+<br>
+
+<h5>PEMBAHAGIAN TUGAS</h5>
+<br>
+<label for="">TARIKH JANA KAD KERJA:</label>
+<input type="text" name="" id="">
+<br>
+<label for="">TARIKH PEMBAHAGIAN:</label>
+<input type="text" name="" id="">
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>BIL.</th>
+            <th>PROSES</th>
+            <th>STAF</th>
+            <th>TEMPOH(HARI) SEBENAR/JANGKA</th>
+            <th>STATUS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>PENDAFTARAN SINARAN</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>PRE PEYINARAN</td>
+            <td>"NAMA"</td>
+            <td>4</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>PEYINARAN</td>
+            <td>"NAMA"</td>
+            <td>5</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>PEMERIKSAAN AKHIR</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>SETUP SIJIL</td>
+            <td>"NAMA"</td>
+            <td>2</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>MUAT NAIK DOKUMEN</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>KERJA SELESAI</td>
+            <td>"NAMA"</td>
+            <td>4</td>
+            <td>X
+            </td>
+        </tr>
+    </tbody>
+</table>
+<button>PAPAR AKTIVITI</button>
+<br>
 
 
+<br>
+<h4>KERJA SELESAI</h4>
+<br>
+<label for="">NO KAD KERJA:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<br>
+<h5>AKTIVITI-AKTIVITI</h5>
+<br>
+<br>
+<label for="">TARIKH:</label>
+<input type="date" name="" id="">
+<br>
+<br>
+<label for="">KETERANGAN:</label>
+<textarea name="" id="" cols="30" rows="10"></textarea><br>
+<br>
+<br>
+<button>TAMBAH</button>
+<br>
+<br>
+<h5>PROSES KERJA SELESAI</h5>
+<br>
+<label for="">TARIKH:</label>
+<input type="date" name="" id="">
+<br>
+<button>SELESAI</button>
+<br>
 
 
+<h4>KERJA SELESAI</h4>
+<br>
+<label for="">NO KAD KERJA:</label>
+<input type="text" name="" id="">
+<br>
+<br>
+<br>
+<h5>AKTIVITI-AKTIVITI</h5>
+<br>
+<br>
+<label for="">TARIKH:</label>
+<input type="date" name="" id="">
+<br>
+<br>
+<label for="">KETERANGAN:</label>
+<textarea name="" id="" cols="30" rows="10"></textarea><br>
+<br>
+<br>
+<button>TAMBAH</button>
+<br>
 
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>TAJUK</th>
+            <th>CATATAN</th>
+            <th>TINDAKAN</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>QWERTYUIOP</td>
+            <td>
+                QWERTYUIOP
+            </td>
+            <td>
+                <i class="far fa-trash-alt"><button></button></i>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<h5>PROSES KERJA SELESAI</h5>
+<br>
+<label for="">TARIKH:</label>
+<input type="date" name="" id="">
+<br>
+<button>SELESAI</button>
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>BIL.</th>
+            <th>PROSES</th>
+            <th>STAF</th>
+            <th>TEMPOH(HARI) SEBENAR/JANGKA</th>
+            <th>STATUS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>PENDAFTARAN SINARAN</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>PRE PEYINARAN</td>
+            <td>"NAMA"</td>
+            <td>4</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>PEYINARAN</td>
+            <td>"NAMA"</td>
+            <td>5</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>PEMERIKSAAN AKHIR</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>SETUP SIJIL</td>
+            <td>"NAMA"</td>
+            <td>2</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>MUAT NAIK DOKUMEN</td>
+            <td>"NAMA"</td>
+            <td>3</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>KERJA SELESAI</td>
+            <td>"NAMA"</td>
+            <td>4</td>
+            <td>
+                (V)12-11-2021
+                12:09:13
+            </td>
+        </tr>
+    </tbody>
+</table>
+<button>PAPAR AKTIVITI</button>
+<br>
 </form>
 
 
@@ -800,4 +1252,37 @@
       </div>
     </div>
   </div>
+  <!-- Modal -->
+<div class="modal fade" id="preview" tabindex="-1" role="dialog" aria-labelledby="previewLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="previewLabel">PREVIEW</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <label for="">URUTAN:</label>
+          <input type="text" name="" id="">
+          <br>
+          <label for="">LEVEL:</label>
+          <input type="text" name="" id="">
+          <br>
+          <label for="">BIL:</label>
+          <input type="text" name="" id="">
+          <br>
+          <label for="">KETERANGAN:</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">TAMBAH</button>
+          <button type="button" class="btn btn-primary">BATAL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
 @endsection

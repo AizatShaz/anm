@@ -112,8 +112,8 @@
             <td>3000</td>
             <td>
                 <button>C</button>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -166,8 +166,8 @@
             <td>3000</td>
             <td>
                 <button>C</button>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -290,8 +290,8 @@
             <td>3000</td>
             <td>
                 <button>C</button>
-                <button>E</button>
-                <button>D</button>
+                 <i class="fas fa-pen"><button></button></i>
+                <i class="far fa-trash-alt"><button></button></i>
             </td>
         </tr>
     </tbody>
@@ -318,8 +318,8 @@
         <td>3000</td>
         <td>
             <button>C</button>
-            <button>E</button>
-            <button>D</button>
+             <i class="fas fa-pen"><button></button></i>
+            <i class="far fa-trash-alt"><button></button></i>
         </td>
     </tr>
 </tbody>

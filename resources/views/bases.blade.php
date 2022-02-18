@@ -142,17 +142,55 @@
                     </div>
                   </div> --}}
                 <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL1" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                  <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">PERMOHONAN Sebutharga</span>
+                  <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">PERMOHONAN SEBUTHARGA</span>
                   </div>
                 </a>
                 <ul class="nav collapse false" id="LOL1">
                   <li class="nav-item"><a class="nav-link" href="/jualan/permohonan_sebutharga/permohonan_sebutharga">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1"> PERMOHONAN Sebutharga</span>
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1"> Permohonan Sebutharga</span>
                       </div>
                     </a>
                     <!-- more inner pages-->
                   </li>
                 </ul>
+                
+                      <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL3" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
+                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1"> Sebutharga</span>
+                    </div>
+                  </a>
+                  <ul class="nav collapse false" id="LOL3">
+                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_rfq">
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga RFQ</span>
+                      </div>
+                    </a>
+                    <!-- more inner pages-->
+                  </li>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga">
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga</span>
+                        </div>
+                      </a>
+                      <!-- more inner pages-->
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/senarai_sebutharga">
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Sebutharga</span>
+                        </div>
+                      </a>
+                      <!-- more inner pages-->
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/kelulusan">
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan</span>
+                        </div>
+                      </a>
+                      <!-- more inner pages-->
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_lama">
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga Lama</span>
+                      </div>
+                    </a>
+                    <!-- more inner pages-->
+                  </li>
+                  </ul>
+
                 <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
                   <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">PESANAN</span>
                   </div>
@@ -221,42 +259,6 @@
                           <!-- more inner pages-->
                         </li>
                       </ul>
-                      <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL3" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1"> Sebutharga</span>
-                    </div>
-                  </a>
-                  <ul class="nav collapse false" id="LOL3">
-                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_rfq">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga RFQ</span>
-                      </div>
-                    </a>
-                    <!-- more inner pages-->
-                  </li>
-                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/senarai_sebutharga">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Sebutharga</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/kelulusan">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_lama">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga Lama</span>
-                      </div>
-                    </a>
-                    <!-- more inner pages-->
-                  </li>
-                  </ul>
                    <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL4" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
                     <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">Kad Kerja</span>
                     </div>

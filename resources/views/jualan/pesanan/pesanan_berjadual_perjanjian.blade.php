@@ -335,9 +335,9 @@
             <tr>
                 <td>1.</td>
                 <td>ABCDEFGHIJK</td>
-                <td>12</td>
+                <td><input type="text" placeholder="12"></td>
                 <td>20.00</td>
-                <td><button>240.00</button></td>
+                <td>240.00</td>
             </tr>
         </tbody>
     </table>
@@ -358,9 +358,9 @@
             <tr>
                 <td>1.</td>
                 <td>kjhgfdsa</td>
-                <td>10</td>
+                <td><input type="text" placeholder="10"></td>
                 <td>15.00</td>
-                <td><button>150.00</button></td>
+                <td>150.00</td>
             </tr>
         </tbody>
     </table>

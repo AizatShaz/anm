@@ -190,8 +190,7 @@
                     <!-- more inner pages-->
                   </li>
                   </ul>
-
-                <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
+                  <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
                   <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">PESANAN</span>
                   </div>
                 </a>
@@ -241,22 +240,21 @@
           <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/laporan_pro_forma">
             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Laporan Pro Forma</span>
             </div>
-          </a>
-          <!-- more inner pages-->
+          </a><!-- more inner pages-->
         </li>
         <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pro_forma_invois">
           <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pro Forma Invois</span>
           </div>
         </a>
         <!-- more inner pages-->
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pro_forma_tiada invois">
+          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pro Forma Tiada Invois</span>
+          </div>
+        </a>
+        <!-- more inner pages-->
       </li>
-      <li class="nav-item"><a class="nav-link" href="/jualan/pesanan/pro_forma_tiada invois">
-        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pro Forma Tiada Invois</span>
-        </div>
-      </a>
-      <!-- more inner pages-->
-    </li>
-  </ul>
+    </ul>
   <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL4" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
     <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">Kad Kerja</span>
     </div>
@@ -268,38 +266,78 @@
                       </a>
                       <!-- more inner pages-->
                     </li>
+
                     <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/kad_kerja_masuk">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Masuk</span>
                         </div>
                       </a>
                       <!-- more inner pages-->
                     </li>
-                    <li class="nav-item"><a class="nav-link dropdown-indicator" href="#!" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja</span>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/kad_kerja_masuk">
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Masuk</span>
                       </div>
                     </a>
-                    <ul class="nav collapse false" id="LALA1">
-                      <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/jana">
-                          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Jana Kad Kerja</span>
-                          </div>
-                        </a>
-                        <!-- more inner pages-->
-                      </li>
-                    </ul>
-
-                    <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/kad_kerja_lama">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Lama</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                  </ul>
-                  
-    <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL6" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-      <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">INVOIS</span>
-</div>
-</a>
-
+                    <!-- more inner pages-->
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/irradiation">
+                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Irradiation</span>
+                    </div>
+                  </a>
+                  <!-- more inner pages-->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/calibration">
+                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Calibration</span>
+                  </div>
+                </a>
+                <!-- more inner pages-->
+              </li>
+              <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/external">
+                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja External</span>
+                </div>
+              </a>
+              <!-- more inner pages-->
+            </li>
+            <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/fabrication">
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Fabrication</span>
+              </div>
+            </a>
+            <!-- more inner pages-->
+            </li>
+            <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/personal_dosimeter">
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Personal Dosimeter</span>
+              </div>
+            </a>
+            <!-- more inner pages-->
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/production">
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Production</span>
+            </div>
+          </a>
+          <!-- more inner pages-->
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/repair">
+          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Repair</span>
+          </div>
+        </a>
+        <!-- more inner pages-->
+      </li>
+      <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/testing">
+        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Testing</span>
+        </div>
+      </a>
+      <!-- more inner pages-->
+    </li>
+    <li class="nav-item"><a class="nav-link" href="/jualan/kad_kerja/perkhidmatan_sewa">
+      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kad Kerja Perkhidmatan Sewa</span>
+      </div>
+    </a>
+    <!-- more inner pages-->
+  </li>
+</ul>
+                <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL6" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
+                  <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">INVOIS</span>
+                  </div>
+                </a>
                 <ul class="nav collapse false" id="LOL6">
                   <li class="nav-item"><a class="nav-link" href="/jualan/invois/jana_invois">
                       <div class="d-flex align-items-center">

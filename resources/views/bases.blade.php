@@ -283,168 +283,7 @@
                       <!-- more inner pages-->
                     </li>
                   </ul>
-                  <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL5" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">KOD</span>
-                    </div>
-                  </a>
-                  <ul class="nav collapse false" id="LOL5">
-                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_notifikasi">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD NOTIFIKASI</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/servis_pusat_khidmat">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SERVIS PUSAT KHIDMAT</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_harga">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL HARGA</span>
-                        </div>
-                      </a>
-                      <!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_kakitangan">
-                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL KAKITANGAN</span>
-                      </div>
-                    </a>
-                    <!-- more inner pages-->
-                  </li>
-                  <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_syarikat">
-                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL SYARIKAT</span>
-                    </div>
-                  </a>
-                  <!-- more inner pages-->
-                </li>
-                <li class="nav-item"><a class="nav-link" href="/jualan/kod/pelanggan">
-                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PELANGGAN</span>
-                  </div>
-                </a>
-                <!-- more inner pages-->
-              </li>
-              <li class="nav-item"><a class="nav-link" href="/jualan/kod/pelanggan_aktif">
-                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PELANGGAN AKTIF</span>
-                </div>
-              </a>
-              <!-- more inner pages-->
-            </li>
-            <li class="nav-item"><a class="nav-link" href="/jualan/kod/pembekal">
-              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PEMBEKAL</span>
-              </div>
-            </a>
-            <!-- more inner pages-->
-          </li>
-          <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bank">
-            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD BANK</span>
-            </div>
-          </a>
-          <!-- more inner pages-->
-        </li>
-        <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bayaran">
-          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD BAYARAN</span>
-          </div>
-        </a>
-        <!-- more inner pages-->
-      </li>
-      <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_pusat_khidmat">
-        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PUSAT KHIDMAT</span>
-        </div>
-      </a>
-      <!-- more inner pages-->
-    </li>
-    <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_iso">
-      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD ISO</span>
-      </div>
-    </a>
-    <!-- more inner pages-->
-  </li>
-  <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_status_syarikat">
-    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD STATUS SYARIKAT</span>
-    </div>
-  </a>
-  <!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_negeri">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD NEGERI</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_daerah">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD DAERAH</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PROSES</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses_config">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PROSES CONFIG</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/setup_format_sijil">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SETUP FORMAT SIJIL</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_template_sijil">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD TEMPLATE SIJIL</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/semak_stok">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SEMAK STOK</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/daftar_alat">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">DAFTAR ALAT</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/batal_transaksi">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">BATAL TRANSAKSI</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_notifikasi_abt">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD NOTIFIKASI ABT</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/tukar_staf">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">TUKAR STAF</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/pindah_milik_syarikat">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PINDAH MILIK SYARIKAT</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-<li class="nav-item"><a class="nav-link" href="/jualan/kod/hapus_pro_forma">
-  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">HAPUS PRO FORMA</span>
-  </div>
-</a>
-<!-- more inner pages-->
-</li>
-    </ul>
+                  
     <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL6" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
       <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">INVOIS</span>
 </div>
@@ -640,6 +479,169 @@
   <!-- more inner pages-->
 </li>
 </ul>
+
+                  <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL5" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
+                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">KOD</span>
+                    </div>
+                  </a>
+                  <ul class="nav collapse false" id="LOL5">
+                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_notifikasi">
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD NOTIFIKASI</span>
+                        </div>
+                      </a>
+                      <!-- more inner pages-->
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/servis_pusat_khidmat">
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SERVIS PUSAT KHIDMAT</span>
+                        </div>
+                      </a>
+                      <!-- more inner pages-->
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_harga">
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL HARGA</span>
+                        </div>
+                      </a>
+                      <!-- more inner pages-->
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_kakitangan">
+                      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL KAKITANGAN</span>
+                      </div>
+                    </a>
+                    <!-- more inner pages-->
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_syarikat">
+                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PROFIL SYARIKAT</span>
+                    </div>
+                  </a>
+                  <!-- more inner pages-->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/jualan/kod/pelanggan">
+                  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PELANGGAN</span>
+                  </div>
+                </a>
+                <!-- more inner pages-->
+              </li>
+              <li class="nav-item"><a class="nav-link" href="/jualan/kod/pelanggan_aktif">
+                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PELANGGAN AKTIF</span>
+                </div>
+              </a>
+              <!-- more inner pages-->
+            </li>
+            <li class="nav-item"><a class="nav-link" href="/jualan/kod/pembekal">
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">PEMBEKAL</span>
+              </div>
+            </a>
+            <!-- more inner pages-->
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bank">
+            <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD BANK</span>
+            </div>
+          </a>
+          <!-- more inner pages-->
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bayaran">
+          <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD BAYARAN</span>
+          </div>
+        </a>
+        <!-- more inner pages-->
+      </li>
+      <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_pusat_khidmat">
+        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PUSAT KHIDMAT</span>
+        </div>
+      </a>
+      <!-- more inner pages-->
+    </li>
+    <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_iso">
+      <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD ISO</span>
+      </div>
+    </a>
+    <!-- more inner pages-->
+  </li>
+  <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_status_syarikat">
+    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD STATUS SYARIKAT</span>
+    </div>
+  </a>
+  <!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_negeri">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD NEGERI</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_daerah">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD DAERAH</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PROSES</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses_config">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">KOD PROSES CONFIG</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/setup_format_sijil">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SETUP FORMAT SIJIL</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_template_sijil">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Template Sijil</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/semak_stok">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Semak Stok</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/daftar_alat">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Daftar Alat</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/batal_transaksi">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Batal Transaksi</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_notifikasi_abt">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Notifikasi ABT</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/tukar_staf">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Tukar Staf</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/pindah_milik_syarikat">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pindah Milik Syarikat</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+<li class="nav-item"><a class="nav-link" href="/jualan/kod/hapus_pro_forma">
+  <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Hapus Pro Forma</span>
+  </div>
+</a>
+<!-- more inner pages-->
+</li>
+    </ul>
     <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL10" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
       <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">SETUP</span>
       </div>

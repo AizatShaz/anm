@@ -91,10 +91,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 
 <table>
@@ -357,10 +357,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 
 <table>
@@ -455,10 +455,10 @@
 <h5>PEMBAHAGIAN TUGAS</h5>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 
 <table>
@@ -565,10 +565,10 @@
 <h5>PEMBAHAGIAN TUGAS</h5>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 
 <table>
@@ -771,10 +771,10 @@
 <h5>PEMBAHAGIAN TUGAS</h5>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 
 <table>
@@ -956,10 +956,10 @@
 <h5>PEMBAHAGIAN TUGAS</h5>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 
 <table>

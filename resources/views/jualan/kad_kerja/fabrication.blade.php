@@ -10,10 +10,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <table>
     <thead>
@@ -214,10 +214,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <br>
 <table>
@@ -348,10 +348,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <br>
 <table>
@@ -478,10 +478,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <br>
 <table>
@@ -612,10 +612,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <br>
 <table>
@@ -769,10 +769,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <br>
 <table>
@@ -926,10 +926,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <br>
 <table>
@@ -1078,10 +1078,10 @@
 <br>
 <br>
 <label for="">TARIKH JANA KAD KERJA:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <label for="">TARIKH PEMBAHAGIAN:</label>
-<input type="text" name="" id="">
+<input type="date" name="" id="">
 <br>
 <br>
 <table>
@@ -1157,9 +1157,6 @@
 <br>
 <button>PAPAR AKTIVITI</button>
 <br>
-
-
-
 
 
 

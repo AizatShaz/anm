@@ -126,8 +126,7 @@
        <td value="" ></td>
        <td value="" ><i class="fas fa-pen"><button></button></i></td>
        <td value="" ><i class="far fa-trash-alt"><button></button></i></td>
-       <i class="fas fa-pen"><button></button></i>
-       <i class="far fa-trash-alt"><button></button></i>
+
    </tr>
   </tbody>
 </table>

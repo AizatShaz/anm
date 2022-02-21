@@ -320,6 +320,7 @@
 <br>
 <button>PAPAR AKTIVITI</button>
 <br>
+
 <h4> PENDAFTARAN SAMPEL</h4>
 <br>
 <label for="">NO KAD KERJA:</label>
@@ -381,6 +382,7 @@
 <br>
 <button>PAPAR MAKLUMAT SAHAJA</button>
 <br>
+<!--PAGES-->
 <br>
 <h4> PENDAFTARAN SAMPEL</h4>
 <br>
@@ -402,6 +404,7 @@
 <br>
 <button>KEMASKINI</button>
 <br>
+
 <br>
 <table>
     <thead>
@@ -497,6 +500,7 @@
 </table>
 <br>
 <button>PAPAR AKTIVITI</button>
+
 <br>
 <h4>MUAT NAIK DOKUMEN</h4>
 <br>
@@ -663,6 +667,7 @@
 </table>
 <br>
 <button>PAPAR AKTIVITI</button>
+
 <br>
 <h4>KERJA SELESAI</h4>
 <br>
@@ -727,6 +732,18 @@
 <input type="date" name="" id="">
 <br>
 <button>SELESAI</button>
+<br>
+<br>
+<h5>PEMBAHAGIAN TUGAS</h5>
+<br>
+<br>
+<label for="">TARIKH JANA KAD KERJA:</label>
+<input type="date" name="" id="">
+<br>
+<label for="">TARIKH PEMBAHAGIAN:</label>
+<input type="date" name="" id="">
+<br>
+<br>
 <br>
 <table>
     <thead>

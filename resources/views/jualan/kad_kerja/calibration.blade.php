@@ -1314,6 +1314,7 @@
 </table>
 <br>
 <button>PAPAR AKTIVITI</button>
+
 <br>
 <h4>MUAT NAIK LAPORAN</h4>
 <br>
@@ -1710,7 +1711,7 @@
   </div>
 
 
-  
+
   <div class="modal fade" id="sijilDetail" tabindex="-1" role="dialog" aria-labelledby="sijilDetailLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">

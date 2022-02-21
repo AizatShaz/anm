@@ -203,6 +203,7 @@ Route::get('/jualan/invois/nota_debit_nota_kredit','App\Http\Controllers\JualanI
 Route::get('/jualan/invois/kelulusan','App\Http\Controllers\JualanInvoisController@kelulusan');
 Route::get('/jualan/invois/invois_lama','App\Http\Controllers\JualanInvoisController@invois_lama');
 Route::get('/jualan/invois/senarai_hitam','App\Http\Controllers\JualanInvoisController@senarai_hitam');
+Route::get('/jualan/invois/invois','App\Http\Controllers\JualanInvoisController@invois');
 Route::get('/jualan/laporan/penyata_invois','App\Http\Controllers\JualanLaporanController@penyata_invois');
 Route::get('/jualan/laporan/akaun_subsidiari_abt','App\Http\Controllers\JualanLaporanController@akaun_subsidiari_abt');
 Route::get('/jualan/laporan/nota_debit_nota_kredit','App\Http\Controllers\JualanLaporanController@nota_debit_nota_kredit');

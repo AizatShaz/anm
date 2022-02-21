@@ -2,6 +2,8 @@
 @extends('bases')
 
 @section('content')   
+<form action="">
+    @csrf
 
 <h1>JANA INVOIS</h1>
 <br>
@@ -227,5 +229,6 @@
 <p style="color: blue">NM/INV/2011-0002</p><br>
 <br>
 <br>
+</form>
 
 @endsection

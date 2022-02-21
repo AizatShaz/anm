@@ -376,6 +376,10 @@
               </a>
               <!-- more inner pages-->
             </li>
+            <li class="nav-item"><a class="nav-link" href="/jualan/invois/invois">
+              <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Invois</span>
+              </div>
+            </a>
             <li class="nav-item"><a class="nav-link" href="/jualan/invois/invois_lama">
               <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Invois Lama</span>
               </div>

@@ -1129,6 +1129,17 @@
 <input type="date" name="" id="">
 <br>
 <button>SELESAI</button>
+
+<!--pages-->
+<br>
+<h5>PEMBAHAGIAN TUGAS</h5>
+<br>
+<br>
+<label for="">TARIKH JANA KAD KERJA:</label>
+<input type="date" name="" id="">
+<br>
+<label for="">TARIKH PEMBAHAGIAN:</label>
+<input type="date" name="" id="">
 <br>
 
 <table>
@@ -1215,6 +1226,7 @@
         </tr>
     </tbody>
 </table>
+<br>
 <button>PAPAR AKTIVITI</button>
 <br>
 </form>

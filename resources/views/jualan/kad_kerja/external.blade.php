@@ -498,7 +498,7 @@
 <br>
 <button>PAPAR AKTIVITI</button>
 <br>
-<h4>MUAT NAIK LAPORAN</h4>
+<h4>MUAT NAIK DOKUMEN</h4>
 <br>
 <label for="">NO KAD KERJA:</label>
 <input type="text" name="" id="">
@@ -527,7 +527,7 @@
 <button> MUAT NAIK</button>
 <br>
 <br>
-<h4>MUAT NAIK LAPORAN</h4>
+<h4>MUAT NAIK DOKUMEN</h4>
 <br>
 <label for="">NO KAD KERJA:</label>
 <input type="text" name="" id="">

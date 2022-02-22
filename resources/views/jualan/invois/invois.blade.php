@@ -278,7 +278,188 @@
 </table>
 <h5>JUMLAH: RM 0.00</h5>
 <!--PAGE-->
+<h4>PENGESAHAN INVOIS</h4>
+<br>
+<label for="">NO. INVOIS:</label>
+<input type="text" name="" id="">
+<br>
+<label for="">PENGESAH INVOIS:</label>
+<input type="text" name="" id="">
+<br>
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>KHIDMAT/PRODUK</th>
+            <th>KUANTITI</th>
+            <th>UNIT HARGA(RM)</th>
+            <th>AMAUN(RM)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>FILEM DAN ANALISA DOS</td>
+            <td>23</td>
+            <td>3,000</td>
+            <td>30,000</td>
+        </tr>
+    </tbody>
+</table>
+<h5>JUMLAH: RM </h5>
+<br>
+<br>
+<h5>NOTA DEBIT: </h5>
+<br>
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>NO. KAD KERJA</th>
+            <th>PERKARA</th>
+            <th>PUSAT KHIDMAT</th>
+            <th>AMAUN(RM)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>FILEM DAN ANALISA DOS</td>
+            <td>23</td>
+            <td>3,000</td>
+            <td>30,000</td>
+        </tr>
+    </tbody>
+</table>
+<h5>JUMLAH: RM</h5>
+<br><br>
+<h5>NOTA KREDIT: </h5>
+<br>
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>NO. KAD KERJA</th>
+            <th>PERKARA</th>
+            <th>PUSAT KHIDMAT</th>
+            <th>AMAUN(RM)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>FILEM DAN ANALISA DOS</td>
+            <td>23</td>
+            <td>3,000</td>
+            <td>30,000</td>
+        </tr>
+    </tbody>
+</table>
+<h5>JUMLAH: RM</h5>
+<br>
+<br>
+<br>
+<br>
+<label for="">DISKAUN:</label><input type="checkbox" name="" id=""><input type="text" name="" id=""><label for="">% ATAU RM</label><input type="checkbox" name="" id=""><input type="text" name="" id="">
+<br>
+<br>
+<label for="">JUMLAH SELEPAS DISKAUN(RM): RM </label><input type="text" name="" id="">
+<br>
+<button>INVOIS SELESAI</button>
+<!--PAGE-->
 
+<h4>PENGESAHAN INVOIS</h4>
+<br>
+<label for="">NO. INVOIS:</label>
+<input type="text" name="" id="">
+<br>
+<label for="">PENGESAH INVOIS:</label>
+<input type="text" name="" id="">
+<br>
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>KHIDMAT/PRODUK</th>
+            <th>KUANTITI</th>
+            <th>UNIT HARGA(RM)</th>
+            <th>AMAUN(RM)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>FILEM DAN ANALISA DOS</td>
+            <td>23</td>
+            <td>3,000</td>
+            <td>30,000</td>
+        </tr>
+    </tbody>
+</table>
+<h5>JUMLAH: RM </h5>
+<br>
+<br>
+<h5>NOTA DEBIT: </h5>
+<br>
+<br>
+<h3>INVOIS TELAH DISAHKAN</h3>
+<br>
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>NO. KAD KERJA</th>
+            <th>PERKARA</th>
+            <th>PUSAT KHIDMAT</th>
+            <th>AMAUN(RM)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>FILEM DAN ANALISA DOS</td>
+            <td>23</td>
+            <td>3,000</td>
+            <td>30,000</td>
+        </tr>
+    </tbody>
+</table>
+<h5>JUMLAH: RM</h5>
+<br><br>
+<h5>NOTA KREDIT: </h5>
+<br>
+<table>
+    <thead>
+        <tr>
+            <th>BIL</th>
+            <th>NO. KAD KERJA</th>
+            <th>PERKARA</th>
+            <th>PUSAT KHIDMAT</th>
+            <th>AMAUN(RM)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>FILEM DAN ANALISA DOS</td>
+            <td>23</td>
+            <td>3,000</td>
+            <td>30,000</td>
+        </tr>
+    </tbody>
+</table>
+<h5>JUMLAH: RM</h5>
+<br>
+<br>
+<br>
+<br>
+<label for="">DISKAUN:</label><input type="checkbox" name="" id=""><input type="text" name="" id=""><label for="">% ATAU RM</label><input type="checkbox" name="" id=""><input type="text" name="" id="">
+<br>
+<br>
+<label for="">JUMLAH SELEPAS DISKAUN(RM): RM </label><input type="text" name="" id="">
+<br>
+<button>KEMAS KINI INVOIS</button>
+<!--PAGE-->
 <!--PAGE-->
 
 

@@ -42,4 +42,9 @@ class JualanInvoisController extends Controller
         return view('jualan.invois.senarai_hitam',[]);
 
     }
+    public function penyata_invois()
+    {
+        return view('jualan.invois.penyata_invois',[]);
+
+    }
 }

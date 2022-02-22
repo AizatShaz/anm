@@ -934,7 +934,7 @@
                 <button>JANA SIJIL</button>
             </td>
             <td>
-                <button>P</button><button href="" type="button" data-toggle="modal" data-target="#sijilDetail">Detail</button>
+                <button><i class="fas fa-print"></i></button><button href="" type="button" data-toggle="modal" data-target="#sijilDetail">Detail</button>
             </td>
         </tr>
     </tbody>
@@ -976,7 +976,7 @@
                 NO SIJIL: NM/35627
             </td>
             <td>
-                <button>P</button><a href="">Detail</a>
+                <button><i class="fas fa-print"></i></button><a href="">Detail</a>
             </td>
         </tr>
     </tbody>

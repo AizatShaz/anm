@@ -1,7 +1,10 @@
 
 @extends('bases')
 
-@section('content')   
+@section('content') 
+<form action="">
+    @csrf
+      
 <h1>KOD NOTIFIKASI</h1>
 <br>
 <br>
@@ -610,11 +613,7 @@
         </tr>
     </tbody>
 </table>
-<!--PAGES-->
-<!--PAGES-->
-<!--PAGES-->
-<!--PAGES-->
-<!--PAGES-->
+</form>
 <!--PAGES-->
 
 @endsection

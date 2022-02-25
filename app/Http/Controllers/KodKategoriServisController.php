@@ -6,7 +6,7 @@ use App\Models\kod_kategori_servis;
 use App\Models\spp_proses_template_detail;
 use App\Models\spp_proses_template_main;
 use Illuminate\Http\Request;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class KodKategoriServisController extends Controller
 {

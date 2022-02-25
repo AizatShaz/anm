@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\spp_proses_template_main;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class SppProsesTemplateMainController extends Controller
 {
@@ -80,6 +81,12 @@ class SppProsesTemplateMainController extends Controller
      */
     public function destroy(spp_proses_template_main $spp_proses_template_main)
     {
-        //
+        
+    }
+    public function deleteAll(Request $request)
+    {
+        $ids = $request->ids;
+        DB::table("spp_proses_template_mains")->whereIn('id',explode(",",$ids))->delete();
+        return response()->json(['success'=>"Deleted successfully."]);
     }
 }

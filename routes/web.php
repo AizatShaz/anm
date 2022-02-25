@@ -101,6 +101,8 @@ Route::resource('/kod_negeri','App\Http\Controllers\KodNegeriController'::class)
 Route::resource('/kod_kategori_servis','App\Http\Controllers\KodKategoriServisController'::class);
 Route::post('/kategori_proses_template','App\Http\Controllers\KodKategoriServisController@getProsesTemplate'::class);
 Route::post('/detail_proses','App\Http\Controllers\KodKategoriServisController@getDetailProses'::class);
+Route::delete('kod_kategori_DeleteAll', 'App\Http\Controllers\KodKategoriServisController@deleteAll');
+
 
 Route::resource('/kod_daerah','App\Http\Controllers\KodDaerahController'::class);
 Route::post('/idNegSel','App\Http\Controllers\KodDaerahController@getNegeri');

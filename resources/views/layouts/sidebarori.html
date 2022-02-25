@@ -1,0 +1,178 @@
+
+<style>
+    .risda-side {
+        /* margin-top: 225px; */
+        /* padding: 20px; */
+        /* width: 350px; */
+        /* position: fixed; */
+        /* overflow-y: auto;
+        top: 0;
+        bottom: 0; */
+        background-color: #009640;
+        color: white;
+    }
+
+    /* .nav-link-text {
+        color: white;
+    }
+
+    .nav-link-text.active {
+        color: white;
+        background-color: #009640;
+    } */
+
+</style>
+<script>
+    var isFluid = JSON.parse(localStorage.getItem('isFluid'));
+    if (isFluid) {
+        var container = document.querySelector('[data-layout]');
+        container.classList.remove('container');
+        container.classList.add('container-fluid');
+    }
+</script>
+<nav class="navbar navbar-light navbar-vertical navbar-expand-xl">
+    <script>
+        var navbarStyle = localStorage.getItem("navbarStyle");
+        if (navbarStyle && navbarStyle !== 'transparent') {
+            document.querySelector('.navbar-vertical').classList.add(`navbar-${navbarStyle}`);
+        }
+    </script>
+    <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
+        <div class="navbar-vertical-content scrollbar" id="checklim">
+            <ul class="navbar-nav flex-column mb-3" id="navbarVerticalNav">
+                <div class="row mt-4">
+                    <div class="col">
+                        <h5 class="text-white text-center">Selamat Datang !</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card risda-bg-dg mx-4 mx-lg-0">
+
+                            <div class="card-body" style="color: #2CABE1">
+                                <div class="row">
+                                    <div class="col text-center mb-3">
+                                        <img src="nuklear_logo.png" alt="" width="40">
+                                        <h3 class="h5 text-white text-center"><strong>AIZAT</strong></h3>
+                                    </div>
+                                </div>
+                                {{-- <h3 class="h5 text-white text-center"><strong>{{ Auth::user()->name }}</strong></h3> --}}
+                                <div class="row mt-3">
+                                    <div class="col d-grid gap-2">
+{{-- 
+                                        <a href="/profil" class="btn btn-light text-success">Profil</a>
+
+                                        <a href="#tukar-password" data-bs-toggle="modal"
+                                            class="btn btn-light text-success">Tukar Kata Laluan</a> --}}
+
+                                        <div class="modal fade" id="tukar-password" tabindex="-1" role="dialog"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document"
+                                                style="max-width: 500px">
+                                                <div class="modal-content position-relative">
+                                                    <div class="position-absolute top-0 end-0 mt-2 me-2 z-index-1">
+                                                        <button
+                                                            class="btn-close btn btn-sm btn-circle d-flex flex-center transition-base"
+                                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <form action="/profil/{{ Auth::id() }}" method="POST">
+                                                        @method('PUT')
+                                                        @csrf
+                                                        <div class="modal-body p-0">
+                                                            <div class="rounded-top-lg py-3 ps-4 pe-6 bg-light">
+                                                                <h4 class="mb-1" id="modalExampleDemoLabel">
+                                                                    Tukar
+                                                                    Kata
+                                                                    Laluan</h4>
+                                                            </div>
+                                                            <div class="p-4 pb-0">
+
+                                                                <div class="mb-3">
+                                                                    <label class="col-form-label">Kata Laluan
+                                                                        Sekarang:</label>
+                                                                    <input class="form-control" type="password"
+                                                                        name="kl_sekarang" />
+                                                                </div>
+                                                                <div class="mb-3">
+                                                                    <label class="col-form-label">Kata Laluan
+                                                                        Baru:</label>
+                                                                    <input class="form-control" type="password"
+                                                                        name="kl_baru" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button class="btn btn-secondary" type="button"
+                                                                data-bs-dismiss="modal">Batal</button>
+                                                            <button class="btn btn-success" type="submit">Tukar Kata
+                                                                Laluan
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {{-- <form method="POST" action="{{ route('logout') }}">
+                                            @csrf
+                                            <div class="col d-grid gap-2">
+                                                <button type="submit" class="btn btn-light text-success">Log
+                                                    Keluar</button>
+                                            </div>
+                                        </form> --}}
+
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4 ">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li class="nav-item mx-3 mx-md-0">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label text-white">
+                            Menu
+                        </div>
+                        <div class="col ps-0">
+                            <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                    <a class="nav-link py-0" href="/dashboard" role="button">
+                        <div class="d-flex align-items-center nav-link-side px-0">
+                            <span class="px-3"><span class="fas fa-home"></span> DASHBOARD</span>
+                        </div>
+                    </a>
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <div class="col d-grid gap-2">
+                            <button type="submit" class="btn btn-light text-success">Log
+                                Keluar</button>
+                        </div>
+                    </form>
+
+
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+    // (function($) {
+    //     var $window = $(window),
+    //         $html = $('#checklim');
+
+    //     $window.resize(function resize() {
+    //         if ($window.width() < 601) {
+    //             return $html.addClass('scrollbar');
+    //         }
+
+    //         $html.removeClass('scrollbar');
+    //     }).trigger('resize');
+    // })(jQuery);
+</script>*

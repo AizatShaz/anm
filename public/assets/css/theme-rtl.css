@@ -23941,7 +23941,7 @@ h5, .h5 {
 .navbar-vertical.navbar-expand-xxl.navbar-card .navbar-vertical-content, .navbar-vertical.navbar-expand-xxl.navbar-vibrant .navbar-collapse,
 .navbar-vertical.navbar-expand-xxl.navbar-vibrant .navbar-vertical-content, .navbar-vertical.navbar-expand-xxl.navbar-inverted .navbar-collapse,
 .navbar-vertical.navbar-expand-xxl.navbar-inverted .navbar-vertical-content {
-    width: 14.5rem !important;
+    width: 25rem !important;
   }
   .navbar-vertical.navbar-expand-xxl.navbar-card + .content, .navbar-vertical.navbar-expand-xxl.navbar-vibrant + .content, .navbar-vertical.navbar-expand-xxl.navbar-inverted + .content {
     margin-right: 15.5rem;

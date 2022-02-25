@@ -2,8 +2,6 @@
 <html lang="en-US" dir="ltr">
 
 <head>
-  <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>ANM | e-Client</title>
+    <title>RISDA | e-LATIHAN</title>
 
 
     <!-- ===============================================-->
@@ -32,6 +30,8 @@
     {{-- <script src="vendors/dropzone/dropzone.min.js"></script> --}}
     {{-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
 
+    <script type="text/javascript" src="/assets/js/datatables.min.js"></script>
+    <script type="text/javascript" src="/assets/js/datatables.js"></script>
     <script src="/assets/js/flatpickr.js"></script>
     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 
@@ -57,7 +57,8 @@
     <link href="/assets/css/theme.min.css" rel="stylesheet" id="style-default">
     <link href="/assets/css/user-rtl.min.css" rel="stylesheet" id="user-style-rtl">
     <link href="/assets/css/user.min.css" rel="stylesheet" id="user-style-default">
-
+    <link rel="stylesheet" type="text/css" href="/assets/css/datatables.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/datatables.min.css" />
     <script>
         var APP_URL = {!! json_encode(url('/')) !!}
 
@@ -75,104 +76,67 @@
             userLinkRTL.setAttribute('disabled', true);
         }
     </script>
-    
 </head>
-<div class="row" style="background-color: #2CABE1" >
-  <div class="col text-center" style="">
-    <span class="h5" style="color: #fff" id="date"></span>
-    <br />
-    <span class="h5" style="color: #fff" id="time"></span>
-  </div>
-  <div class="col text-center" style="">
-
-  </div>
-  <div class="col text-center" style="">
-
-  </div>
-  <div class="col text-center" style="">
-
-  </div>
-  <div class="col text-center" style="">
-
-  </div>
-  <div class="col text-center" style="">
-
-  </div>
-  <div class="col text-center" style="">
-
-  </div>
-</div>
-<img src="/Header.png" alt="" width="100%">
+<img src="/img/risda-banner.jpg" alt="banner" width="100%">
 
 <body>
+    {{-- @include('sweet::alert') --}}
     <style>
-        /* #rcorners {
-          border-radius: 25px;
-          border: #fff;
-          padding: 20px; 
-          width: 40px;
-        } */
-        .form-select{
-          border-color: #2CABE1;
-        }
         .form-control {
-            border-color: #2CABE1;
+            border-color: #009640;
         }
 
+        .risda-dg {
+            color: #0F5E31;
+        }
+
+        .risda-bg-dg {
+            background-color: #0F5E31;
+        }
+
+        .risda-g {
+            color: #009640;
+        }
+
+        .risda-bg-g {
+            background-color: #009640;
+        }
 
         .nav-link-risda {
-            color: #2CABE1;
+            color: #0F5E31;
         }
 
         .nav-link-risda.active {
-            background-color: #2CABE1;
+            background-color: #0F5E31;
             color: white;
         }
 
         .nav-link.active {
-            background-color: #2CABE1;
+            background-color: #0F5E31;
             color: white;
         }
 
         .nav-pills .nav-link.active,
         .nav-pills .show>.nav-link {
-            color: #2CABE1;
-            /* background-color: #; */
+            color: #fff;
+            background-color: #0F5E31;
         }
 
         .nav-link {
-          
             display: block;
             padding: 0.5rem 1rem;
-            color: #2CABE1;
+            color: #009640;
             -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
             -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
             transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
         }
-        .fa-pen{
-          color: black
-        }
 
         .nav-link:hover,
         .nav-link:focus {
-            color: black;
-            background-color: #2CABE1;
+            color: #fff;
+            background-color: #0F5E31;
             text-decoration: none;
             border-radius: 5px;
-        }
-        .btn-logout {
-            color: #fff;
-            background-color: #144A73;
-            text-decoration: none;
-            /* border-radius: 5px; */
-        }
-        .navbar-vertical-divider{
-          color: #2CABE1
-        }
-        .btn-secondary{
-          color: #fff;
-            background-color: #144A73;
-            text-decoration: none;
         }
 
         .btn-primary,
@@ -180,20 +144,19 @@
         .tox .tox-menu__footer .tox-button:last-child,
         .tox .tox-dialog__footer .tox-button:last-child {
             color: #fff;
-            background-color: #2CABE1;
-            border-color: #2CABE1;
+            background-color: #009640;
+            border-color: #009640;
             -webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%);
             box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%);
         }
-        
 
         .btn-primary:hover,
         .navbar-vertical .btn-purchase:hover,
         .tox .tox-menu__footer .tox-button:hover:last-child,
         .tox .tox-dialog__footer .tox-button:hover:last-child {
             color: #fff;
-            background-color: #2CABE1;
-            border-color: #2CABE1;
+            background-color: #0F5E31;
+            border-color: #0F5E31;
         }
 
         .btn-check:focus+.btn-primary,
@@ -205,21 +168,21 @@
         .tox .tox-menu__footer .tox-button:focus:last-child,
         .tox .tox-dialog__footer .tox-button:focus:last-child {
             color: #fff;
-            background-color: #2CABE1;
-            border-color: #2CABE1;
+            background-color: #009640;
+            border-color: #009640;
             -webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%), 0 0 0 0 rgb(76 143 233 / 50%);
             box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%), 0 0 0 0 rgb(76 143 233 / 50%);
         }
 
         .btn-outline-primary {
-            color: #2CABE1;
-            border-color: #2CABE1;
+            color: #009640;
+            border-color: #009640;
         }
 
         .btn-outline-primary:hover {
             color: #fff;
-            background-color: #2CABE1;
-            border-color: #2CABE1;
+            background-color: #0F5E31;
+            border-color: #0F5E31;
         }
 
         .nav-link-side {
@@ -242,11 +205,10 @@
         .nav-link-side:hover,
         .nav-link-side:focus {
             color: #fff;
-            background-color: #2CABE1;
+            background-color: #0F5E31;
             text-decoration: none;
             border-radius: 5px;
         }
-        
 
         .nav-link-side.disabled {
             color: #748194;
@@ -256,18 +218,15 @@
 
         li {
             display: list-item;
-            color: #fff;
+            color: #009640;
             text-align: -webkit-match-parent;
         }
 
         .page-item.active .page-link {
             z-index: 3;
             color: var(--falcon-pagination-active-color);
-            background-color: #2CABE1;
-            border-color: #2CABE1;
-        }
-        .dropdown-indicator{
-          color: b
+            background-color: #009640;
+            border-color: #009640;
         }
 
         .dropdown-indicator:after {
@@ -307,29 +266,28 @@
             .navbar-vertical.navbar-expand-xl .navbar-collapse {
                 width: 100%;
                 height: 100%;
-                background: #2CABE1;
+                background: #009640;
             }
 
             .navbar-vertical.navbar-expand-xl .navbar-vertical-content {
                 width: 100%;
                 height: 100%;
                 padding: 0.5rem 0 0 0;
-                border-block: 
             }
 
             .navbar-vertical {
                 position: absolute;
-                background: #fff;
+                background: #009640;
                 max-width: 350px;
             }
 
             .navbar-vertical-content {
-                background: #fff;
+                background: #009640;
                 width: 350px;
             }
 
             .navbar-nav {
-                background: #2CABE1;
+                background: #009640;
                 width: 350px;
             }
 
@@ -346,10 +304,6 @@
                 max-height: 100%;
             }
         }
-        @media (min-width: 1200px){
-              .navbar-vertical.navbar-expand-xl.navbar-card .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-card .navbar-vertical-content, .navbar-vertical.navbar-expand-xl.navbar-vibrant .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-vibrant .navbar-vertical-content, .navbar-vertical.navbar-expand-xl.navbar-inverted .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-inverted .navbar-vertical-content {
-                width: 25rem !important;
-              }}
 
         @media only screen and (max-width: 600px) {
             .risda-m {
@@ -358,7 +312,7 @@
 
             .navbar-vertical {
                 position: absolute;
-                background: #fff;
+                background: #009640;
                 max-width: 100%;
             }
 
@@ -370,32 +324,27 @@
 
             }
 
-
             .navbar-vertical.navbar-expand-xl .navbar-collapse {
                 width: 100%;
                 height: auto;
-                background: #2CABE1;
+                background: #009640;
             }
 
             .navbar-vertical.navbar-expand-xl .navbar-vertical-content {
                 width: 100%;
                 height: auto;
-                /* padding: 0.5rem 0 0 0; */
+                padding: 0.5rem 0 0 0;
             }
 
             .navbar-vertical {
                 position: absolute;
-                background: #2CABE1;
+                background: #009640;
                 max-width: 100%;
             }
 
             .navbar-vertical-content {
-                background: #ffffff;;
+                background: #009640;
                 width: 100%;
-                border: black
-            }
-            .text-success{
-              color: #fff
             }
         }
 
@@ -414,9 +363,9 @@
         <div class="container-fluid px-0" data-layout="container">
             @include('layouts.anm-side-bar')
             <div class="row">
-                {{-- <div class="col-3 p-0" style="background-color: #2CABE1;">
-            @include('layouts.risda-side-bar')
-          </div> --}}
+                 <div class="col-3 p-0" style="background-color: #009640;">
+            @include('layouts.anm-side-bar')
+          </div> 
                 {{-- <div class="col p-0" style="background-color:white"> --}}
                 <div class="content" style="background: white">
                     <button class="btn navbar-toggler-humburger-icon navbar-toggler me-1 me-sm-3" type="button"
@@ -439,11 +388,11 @@
         </div>
 
 
-        <footer class="risda-bg-dg" style="color:">
+        <footer class="risda-bg-dg">
             <div class="row p-4">
                 <div class="col">
-                    <div class="text-600 " style="color: black">
-                      Copyright © 2010-2020 AGENSI NUKLEAR MALAYSIA (MOSTI)
+                    <div class="text-600 text-white">
+                        Copyright ©️ 2021 SISTEM MAKLUMAT LATIHAN (e-LATIHAN)
                     </div>
                 </div>
             </div>
@@ -501,6 +450,16 @@
                     day + " " + month + " " + year;
             }, 1000);
 
+
+
+            $('.datatable').DataTable();
+
+            $(".tahun").datepicker({
+                format: "yyyy",
+                viewMode: "years",
+                minViewMode: "years",
+                autoclose: true
+            });
 
         });
     </script>

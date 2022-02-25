@@ -16,9 +16,12 @@ class KodBayaranController extends Controller
     public function index()
     {
         $kod_bayaran = kod_bayaran::all();
+        $kod_bayaran2 = count($kod_bayaran);
+
 
         return view('kod_bayaran.index',[
-            'kod_bayaran'=>$kod_bayaran
+            'kod_bayaran'=>$kod_bayaran,
+            'kod_bayaran2'=>$kod_bayaran2
         ]);
     }
 
@@ -69,10 +72,13 @@ class KodBayaranController extends Controller
     public function edit(kod_bayaran $kod_bayaran)
     {
         $kod_bayaran1 = kod_bayaran::all();
+        $kod_bayaran2 = count($kod_bayaran1);
 
         return view('kod_bayaran.edit',[
             'kod_bayaran'=>$kod_bayaran,
             'kod_bayaran1'=>$kod_bayaran1,
+            'kod_bayaran2'=>$kod_bayaran2,
+
         ]);
     }
 

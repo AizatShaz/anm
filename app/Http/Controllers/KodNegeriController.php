@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\kod_negeri;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class KodNegeriController extends Controller
 {
@@ -15,9 +16,11 @@ class KodNegeriController extends Controller
     public function index()
     {
         $kod_negeri = kod_negeri::all();
+        $kod_negeri2 = count($kod_negeri);
 
         return view('kod_negeri.index',[
-            'kod_negeri'=>$kod_negeri
+            'kod_negeri'=>$kod_negeri,
+            'kod_negeri2'=>$kod_negeri2,
         ]);
     }
 
@@ -69,10 +72,12 @@ class KodNegeriController extends Controller
     public function edit(kod_negeri $kod_negeri)
     {
         $kod_negeri1 = kod_negeri::all();
+        $kod_negeri2 = count($kod_negeri1);
 
         return view('kod_negeri.edit',[
             'kod_negeri'=>$kod_negeri,
             'kod_negeri1'=>$kod_negeri1,
+            'kod_negeri2'=>$kod_negeri2,
         ]);
     }
 
@@ -105,5 +110,11 @@ class KodNegeriController extends Controller
         return redirect('/kod_negeri')
         ->with('success', 'deleted successfully');
         //
+    }
+    public function deleteAll(Request $request)
+    {
+        $ids = $request->ids;
+        DB::table("kod_negeris")->whereIn('id',explode(",",$ids))->delete();
+        return response()->json(['success'=>"Deleted successfully."]);
     }
 }

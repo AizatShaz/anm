@@ -141,7 +141,7 @@ class KodDaerahController extends Controller
     public function deleteAll(Request $request)
     {
         $ids = $request->ids;
-        DB::table("sw_menu_details")->whereIn('id',explode(",",$ids))->delete();
+        DB::table("kod_daerahs")->whereIn('id',explode(",",$ids))->delete();
         return response()->json(['success'=>"Products Deleted successfully."]);
     }
 }

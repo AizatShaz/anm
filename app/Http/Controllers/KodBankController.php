@@ -16,9 +16,12 @@ class KodBankController extends Controller
     public function index()
     {
         $kod_bank = kod_bank::all();
+        $kod_bank2 = count($kod_bank);
+
 
         return view('kod_bank.index',[
-            'kod_bank'=>$kod_bank
+            'kod_bank'=>$kod_bank,
+            'kod_bank2'=>$kod_bank2,
         ]);
     }
 

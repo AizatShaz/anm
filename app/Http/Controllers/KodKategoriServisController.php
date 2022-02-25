@@ -18,6 +18,7 @@ class KodKategoriServisController extends Controller
             $itmp['ipt'][] = $kod;
         }
         echo json_encode($itmp);
+        
         exit();
     }
     public function getDetailProses(Request $request)

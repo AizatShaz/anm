@@ -15,9 +15,11 @@ class KodSijilIsoController extends Controller
     public function index()
     {
         $kod_sijil_iso = kod_sijil_iso::all();
+        $kod_sijil_iso2 = count($kod_sijil_iso);
 
         return view('kod_sijil_iso.index',[
-            'kod_sijil_iso'=>$kod_sijil_iso
+            'kod_sijil_iso'=>$kod_sijil_iso,
+            'kod_sijil_iso2'=>$kod_sijil_iso2,
         ]);
     }
 
@@ -41,7 +43,10 @@ class KodSijilIsoController extends Controller
     {
         $kod_sijil_iso = new kod_sijil_iso();
         $kod_sijil_iso->idJC = $request->idJC;
-        $kod_sijil_iso->keterangan = $request->keterangan;
+        if ($request->hasFile('keterangan')) {
+            $kod_sijil_iso->keterangan = $request->file('keterangan')->store('/public/keterangan1');
+        }
+        // dd($request);
 
         $kod_sijil_iso->save();
         return redirect('/kod_sijil_iso');
@@ -82,7 +87,9 @@ class KodSijilIsoController extends Controller
     public function update(Request $request, kod_sijil_iso $kod_sijil_iso)
     {
         $kod_sijil_iso->idJC = $request->idJC;
-        $kod_sijil_iso->keterangan = $request->keterangan;
+        if ($request->hasFile('keterangan')) {
+            $kod_sijil_iso->keterangan = $request->file('keterangan')->store('/public/keterangan1');
+        }
 
         $kod_sijil_iso->save();
         return redirect('/kod_sijil_iso');

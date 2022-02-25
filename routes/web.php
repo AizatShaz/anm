@@ -97,6 +97,7 @@ Route::resource('/kod_bayaran','App\Http\Controllers\KodBayaranController'::clas
 Route::delete('bayaran_DeleteAll', 'App\Http\Controllers\KodBayaranController@deleteAll');
 
 Route::resource('/kod_negeri','App\Http\Controllers\KodNegeriController'::class);
+Route::delete('/kod_negeri_DeleteAll', 'App\Http\Controllers\KodNegeriController@deleteAll');
 
 Route::resource('/kod_kategori_servis','App\Http\Controllers\KodKategoriServisController'::class);
 Route::post('/kategori_proses_template','App\Http\Controllers\KodKategoriServisController@getProsesTemplate'::class);

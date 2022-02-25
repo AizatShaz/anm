@@ -5,7 +5,7 @@
     <div class="col-lg-12 pe-lg-2">
       <div>
         <div class="card-header">
-          <h6 class="mb-0">KOD PROSES</h6>
+          <h6 class="mb-0 label-menu">KOD PROSES</h6>
           <br>
           <h1 class="mb-0">KOD</h1>
           <div class="col-mb-8 ps-0">
@@ -15,13 +15,13 @@
 
           <br>
           <div class="row">
-              <div class="col">
+              <div class="col-sm-6">
                   <h5 class="mb-0">TEMPLATE PROSES</h5>
                 </div>
-              <div class="col">
-                  <button style="    background-color: transparent;background-repeat: no-repeat; border: none;cursor: pointer; overflow: hidden;outline: none;" data-inline="true" onclick="window.print()"><img src="/icon_PRINT.png" alt="" width="30px"></button><br>
-
-              </div>
+                <div class="col-sm-6 text-end">
+                    <button style="    background-color: transparent;background-repeat: no-repeat; border: none;cursor: pointer; overflow: hidden;outline: none;" data-inline="true" onclick="window.print()"><img src="/icon_PRINT.png" alt="" width="30px"></button><br>
+      
+                </div>
           </div>
           <div>
 
@@ -29,6 +29,9 @@
         </div>
         <div class="card-body">
             <div class="row-sm-12 gx-2">
+                <div class="text-end">
+                    <h5 >JUMLAH REKOD: <span style="color: #2CABE1" id="rekod"></span></h5>
+                </div>
               <div class="col-sm-6 ">
 
                 <label class="form-label" for="lesen_id">SILA PILIH KATEGORI SERVIS :</label>
@@ -74,7 +77,6 @@
             <button data-inline="true" style="margin-bottom: 10px" class="btn btn-secondary delete_all" data-url="{{ url('kod_kategori_DeleteAll') }}"><i class="far fa-trash-alt"></i> HAPUS</button>
         </div>
     </div>
-</div>
 
 <script>
     $(document).on('change','#kategori_servis',function(){
@@ -92,6 +94,8 @@
           var data = jQuery.parseJSON(response);
           $('#kategori_proses_template').html('');
           $('#kategori_proses_template').append('<tr value=""></tr>');
+          var n = $( data.ipt ).length;
+          $( "#rekod" ).text(n);
           $.each(data.ipt, function(index,value) {
               $('#kategori_proses_template').append(
                 `<tr>
@@ -105,7 +109,7 @@
                   </form>
                 </td>
                 <td>                  
-                 <a href="/spp_pusat_khidmat_servis/${value.id}/edit"><i class="fas fa-pen"></i></a>
+                 <a href="/spp_proses_template_mains/${value.id}/edit"><i class="fas fa-pen"></i></a>
                 </td>
                 </tr>`
                 );

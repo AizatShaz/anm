@@ -344,10 +344,16 @@
                 -ms-flex-direction: column;
                 flex-direction: column;
                 max-height: 100%;
+              }
             }
-        }
+            .card-body{
+              
+            }
+            .label-menu{
+              color: #2CABE1
+            }
         @media (min-width: 1200px){
-              .navbar-vertical.navbar-expand-xl.navbar-card .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-card .navbar-vertical-content, .navbar-vertical.navbar-expand-xl.navbar-vibrant .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-vibrant .navbar-vertical-content, .navbar-vertical.navbar-expand-xl.navbar-inverted .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-inverted .navbar-vertical-content {
+               .navbar-card .navbar-vertical.navbar-expand-xl.navbar-vibrant .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-vibrant .navbar-vertical-content, .navbar-vertical.navbar-expand-xl.navbar-inverted .navbar-collapse, .navbar-vertical.navbar-expand-xl.navbar-inverted .navbar-vertical-content {
                 width: 25rem !important;
               }}
 
@@ -369,6 +375,9 @@
                 margin: 0;
 
             }
+            .anm-bg-dg {
+            background-color: #2CABE1;
+        }
 
 
             .navbar-vertical.navbar-expand-xl .navbar-collapse {
@@ -439,7 +448,7 @@
         </div>
 
 
-        <footer class="risda-bg-dg" style="color:">
+        <footer class="anm-bg-dg" style="color:">
             <div class="row p-4">
                 <div class="col">
                     <div class="text-600 " style="color: black">

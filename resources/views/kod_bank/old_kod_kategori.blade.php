@@ -2,39 +2,25 @@
 @extends('bases')
 @section('content')   
 
+    <form action="/kod_kategori_servis/" method="POST">
+        @csrf
     <div class="col-lg-12 pe-lg-2">
       <div>
         <div class="card-header">
-          <h6 class="mb-0 label-menu">KOD PROSES</h6>
+          <h6 class="mb-0">KOD PROSES</h6>
           <br>
           <h1 class="mb-0">KOD</h1>
-          <div class="col-mb-8 ps-0">
-            <hr width="900px" class="mb-0 navbar-vertical-divider" />
-
-          </div>
-
           <br>
-          <div class="row">
-              <div class="col-sm-6">
-                  <h5 class="mb-0">TEMPLATE PROSES</h5>
-                </div>
-                <div class="col-sm-6 text-end">
-                    <button style="    background-color: transparent;background-repeat: no-repeat; border: none;cursor: pointer; overflow: hidden;outline: none;" data-inline="true" onclick="window.print()"><img src="/icon_PRINT.png" alt="" width="30px"></button><br>
-      
-                </div>
-          </div>
-          <div>
+          <h5 class="mb-0">TEMPLATE PROSES</h5>
 
-          </div>
         </div>
-        <div class="card-body">
-            <div class="row-sm-12 gx-2">
-                <div class="text-end">
-                    <h5 >JUMLAH REKOD: <span style="color: #2CABE1" id="rekod"></span></h5>
-                </div>
-              <div class="col-sm-6 ">
+        <div class="card-body bg-light">
+            <div class="row-sm-10 gx-2">
+              <div class="col-sm-3">
 
-                <label class="form-label" for="lesen_id">SILA PILIH KATEGORI SERVIS :</label>
+                <label class="form-label" for="lesen_id">SILA PILIH KATEGORI SERVIS :</label> <br>
+              </div>
+              <div class="col-sm-3">
                 <select class="form-select" name="kategori_servis" id="kategori_servis" >
                     <option value=""> Sila pilih:</option>
                    @foreach  ($kod_kategori_servis as $mo)
@@ -42,42 +28,52 @@
                    @endforeach
                   </select>
               </div>
-              <div class="col-sm-6">
-
-              </div>
-              <br>
-              <br>
-              <br>
-              <div class="col-sm-10 mb-12">
-                <table  style="text-align: center; width: 100%">
+              <div class="col-sm-6 mb-3">
+                  <br>
+                <table  style="text-align: center">
                     <thead>
                         <tr align="center">
-                            <th><input type="checkbox" name="" id=""></th>
-                            <th>NAMA</th>
-                            <th>TINDAKAN</th>
-                        </tr>
-                    </thead>
-                    <tbody>  
-                        <tr>
-                            <form action="/spp_proses_template_main/" method="POST">
-                                @csrf
-                                <td> </td>
-                                <td> <input name="nama" type="text" class="form-control"></td>
-                                <td ><input name="idKatServis" type="text" id="idKatServisAuto" class="form-control" hidden><button class="btn btn-secondary" type="submit" value="submit">+TAMBAH</button></td>
-                            </form>
-                        </tr>
-                    </tbody>
-                    <tbody id="kategori_proses_template"></tbody>
+                <th><input type="checkbox" name="" id=""></th>
+                <th>NAMA</th>
+                <th>TINDAKAN</th>
+                </tr>
+                </thead>
+                <tbody>  
+                <tr>
+                <form action="/spp_proses_template_main/" method="POST">
+                @csrf
+                <td> </td>
+                {{-- <td> <input  name="kod" type="text" class=""></td> --}}
+                <td> <input name="nama" type="text" class=""></td>
+                <td ><input name="idKatServis" type="text" id="idKatServisAuto" class="form-control" hidden><button class="btn btn-primary" type="submit" value="submit">TAMBAH</button></td>
+                </form>
+                </tr>
+                </tbody>
+                <tbody id="kategori_proses_template">
+                </tbody>
                 </table>
+              </div>
             </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <button data-inline="true" style="margin-bottom: 10px" class="btn btn-secondary delete_all" data-url="{{ url('kod_kategori_DeleteAll') }}"><i class="far fa-trash-alt"></i> HAPUS</button>
+        </div>
+      </div>
+    </div><br>
+
+
+<br>
+
+<br>
+
+
+    <div class="row" style="display: inlines">
+        <div class=" col-md-2 ">
+    <button data-inline="true" style="margin-bottom: 10px" class="btn btn-primary delete_all" data-url="{{ url('kod_daerah_DeleteAll') }}">HAPUS</button>
+
+        </div>
+        <div class="col-md-2 ">
+    <button data-inline="true" class="btn btn-primary" onclick="window.print()">CETAK </button><br>
+
         </div>
     </div>
-    <!--JS-->
 
 <script>
     $(document).on('change','#kategori_servis',function(){
@@ -95,8 +91,6 @@
           var data = jQuery.parseJSON(response);
           $('#kategori_proses_template').html('');
           $('#kategori_proses_template').append('<tr value=""></tr>');
-          var n = $( data.ipt ).length;
-          $( "#rekod" ).text(n);
           $.each(data.ipt, function(index,value) {
               $('#kategori_proses_template').append(
                 `<tr>
@@ -105,12 +99,11 @@
                   <form action="detail_proses" method="POST">
                   @csrf
                   <input type="hidden" name="id" value="${value.id}" />
-                  <a href="#!">${value.nama}</a>
-                  
+                  <button type="submit">  ${value.nama}</button>
                   </form>
                 </td>
                 <td>                  
-                 <a href="/spp_proses_template_mains/${value.id}/edit"><i class="fas fa-pen"></i></a>
+                 <a href="/spp_pusat_khidmat_servis/${value.id}/edit"><i class="fas fa-pen"></i></a>
                 </td>
                 </tr>`
                 );
@@ -120,7 +113,6 @@
       });
     });
 </script>
-<a href="" style="" role="button"></a>
 
 <script type="text/javascript">
   $(document).ready(function () {

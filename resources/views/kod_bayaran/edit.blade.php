@@ -75,7 +75,7 @@
         <button data-inline="true" style="margin-bottom: 10px" class="btn btn-secondary delete_all" data-url="{{ url('bayaran_DeleteAll') }}"><i class="far fa-trash-alt"></i> HAPUS</button>
     </div>
 </div>
-<!--sssss-->
+<!--no JS-->
 
 <br>
 <br>

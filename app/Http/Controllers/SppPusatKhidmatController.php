@@ -15,9 +15,11 @@ class SppPusatKhidmatController extends Controller
     public function index(){
         // dd('masuk');
         $spp_pusat_khidmat = spp_pusat_khidmat::all();
+        $spp_pusat_khidmat2 = count($spp_pusat_khidmat);
 
         return view('spp_pusat_khidmat.index',[
-            'spp_pusat_khidmat'=>$spp_pusat_khidmat
+            'spp_pusat_khidmat'=>$spp_pusat_khidmat,
+            'spp_pusat_khidmat2'=>$spp_pusat_khidmat2
 
         ]);
     }
@@ -77,10 +79,13 @@ class SppPusatKhidmatController extends Controller
     public function edit(spp_pusat_khidmat $spp_pusat_khidmat)
     {
         $spp_pusat_khidmat1 = spp_pusat_khidmat::all();
+        $spp_pusat_khidmat2 = count($spp_pusat_khidmat1);
+
         // $spp_pusat_khidmat = spp_pusat_khidmat::where('id', $spp_pusat_khidmat)->first();
         return view('spp_pusat_khidmat.edit',[
             'spp_pusat_khidmat'=>$spp_pusat_khidmat,
             'spp_pusat_khidmat1'=>$spp_pusat_khidmat1,
+            'spp_pusat_khidmat2'=>$spp_pusat_khidmat2,
         ]);
     }
 

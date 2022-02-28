@@ -81,7 +81,7 @@
 </div>
 <!--sssss-->
 
-
+{{-- 
 <script>
 $target_dir = "kod_sijil_iso/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -109,5 +109,5 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
   echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
   $uploadOk = 0;
 }
-</script>
+</script> --}}
 @endsection

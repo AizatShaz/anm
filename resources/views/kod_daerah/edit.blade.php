@@ -63,11 +63,7 @@
                     </td>
                     <td> <input value="{{ $kod_daerah -> kod }}" name="kod" type="text" class="form-control"></td>
                     <td> <input value="{{ $kod_daerah -> nama  }}" name="nama" type="text" class="form-control"></td>
-                    <td>
-                      <button class="btn btn-secondary" type="submit" value="submit">
-                          <img width="20" src="/kemaskini.png" alt="">KEMASKINI
-                          
-                        </button></td>
+                    <td><button class="btn btn-secondary" type="submit" value="submit"><img width="20" src="/kemaskini.png" alt="">KEMASKINI</button></td>
                   </form>
                 </tr>
               

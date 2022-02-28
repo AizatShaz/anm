@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\kod_status_syarikat;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class KodStatusSyarikatController extends Controller
 {
@@ -15,9 +16,12 @@ class KodStatusSyarikatController extends Controller
     public function index()
     {
         $kod_status_syarikat = kod_status_syarikat::all();
+        $kod_status_syarikat2 = count($kod_status_syarikat);
+
 
         return view('kod_status_syarikat.index',[
-            'kod_status_syarikat'=>$kod_status_syarikat
+            'kod_status_syarikat'=>$kod_status_syarikat,
+            'kod_status_syarikat2'=>$kod_status_syarikat2,
         ]);
     }
 
@@ -67,11 +71,15 @@ class KodStatusSyarikatController extends Controller
      */
     public function edit(kod_status_syarikat $kod_status_syarikat)
     {
+
         $kod_status_syarikat1 = kod_status_syarikat::all();
+        $kod_status_syarikat2 = count($kod_status_syarikat1);
+
 
         return view('kod_status_syarikat.edit',[
             'kod_status_syarikat'=>$kod_status_syarikat,
             'kod_status_syarikat1'=>$kod_status_syarikat1,
+            'kod_status_syarikat2'=>$kod_status_syarikat2,
         ]);
     }
 
@@ -102,5 +110,11 @@ class KodStatusSyarikatController extends Controller
         $kod_status_syarikat->delete();
         return redirect('/kod_status_syarikat')
         ->with('success', 'post deleted successfully');
+    }
+    public function deleteAll(Request $request)
+    {
+        $ids = $request->ids;
+        DB::table("kod_status_syarikats")->whereIn('id',explode(",",$ids))->delete();
+        return response()->json(['success'=>"Products Deleted successfully."]);
     }
 }

@@ -1,87 +1,84 @@
 
 @extends('bases')
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<style>
+  
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  center;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 @section('content')   
-<div class="col-lg-12 pe-lg-2">
-  <div>
-    <div class="card-header">
-      <h6 class="mb-0 label-menu">KOD BANK</h6>
-      <br>
-      <h1 class="mb-0">KOD</h1>
-      <div class="col-mb-8 ps-0">
-        <hr width="900px" class="mb-0 navbar-vertical-divider" />
 
-      </div>
+<br>
+<form action="/kod_bank/" method="POST" id="new_servis_pusat_khidmat">
+  @csrf
+<br>
+<table style="text-align: center">
+<h2>KOD BANK</h2>
+<button style="margin-bottom: 10px" class="btn btn-primary delete_all" data-url="{{ url('bank_DeleteAll') }}">Delete All Selected</button>
+<table style="text-align: center">
+<thead>
+  <tr>
+    <th width="50px"><input type="checkbox" id="master"></th>
+    <th>KOD</th>
+    <th>NAMA</th>
+    <th>TINDAKAN</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <form action="/kod_bank/" method="POST" id="new_servis_pusat_khidmat">
+      @csrf
+    <td> <input name="kod" type="text" class="" onClick="return empty()"></td>
+    <td> <input name="nama" type="text" class="" style="width: 400px"></td>
+    <td><button type="submit" value="submit">TAMBAH</button></td>
+  </form>
+  </tr>
+</tbody>
+<tbody>
+  @foreach ($kod_bank as $spk)
+  <tr>
+    <td><input type="checkbox" class="sub_chk" data-id="{{ $spk -> id}}"></td>
+    <td><ul> {{ $spk -> kod}}</ul></td>
+    <td><ul> {{ $spk -> nama}}</ul></td>
+    <td>
+    <a href="/kod_bank/{{ $spk -> id}}/edit">Kemaskini</a>
+    <form action="/kod_bank/{{ $spk -> id }}" method="POST">
+      @csrf
+      @method('DELETE')
+      <button type="submit"><span class="fas fa-bin"></span></button>
+      </form>
+    </td>
 
-      <br>
-      <div class="row">
-          <div class="col-sm-6">
-              {{-- <h5 class="mb-0"></h5> --}}
-            </div>
-          <div class="col-sm-6 text-end">
-              <button style="    background-color: transparent;background-repeat: no-repeat; border: none;cursor: pointer; overflow: hidden;outline: none;" data-inline="true" onclick="window.print()"><img src="/icon_PRINT.png" alt="" width="30px"></button><br>
+    </tr>
+@endforeach
+</tbody>
+</table>
 
-          </div>
-      </div>
-      <div>
-
-      </div>
-    </div>
-
-    <div class="card-body">
-        <div class="row-sm-12 gx-2">
-          <div class="text-end">
-          <h5 >JUMLAH REKOD: <span style="color: #2CABE1">{{ $kod_bank2 }}</span></h5>
-
-          </div>
-          <br>
-          <div class="col-sm-10 mb-12">
-            <table class="table" style="text-align: center">
-              <thead>
-                <tr>
-                  <th width="50px"><input type="checkbox" id="master"></th>
-                  <th>KOD</th>
-                  <th>NAMA</th>
-                  <th>TINDAKAN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td></td>
-                  <form action="/kod_bank/{{ $kod_bank -> id }}" method="POST" id="">
-                    @method('PUT')
-                    @csrf
-                  <td> <input value="{{ $kod_bank -> kod }}" name="kod" type="text" class="form-control"></td>
-                  <td> <input value="{{ $kod_bank -> nama }}" name="nama" type="text" class="form-control"></td>
-                  <td><button class="btn btn-secondary" type="submit" value="submit"><img width="20" src="/kemaskini.png" alt="">KEMASKINI</button></td>
-                  </form>
-                </tr>
-              </tbody>
-              <tbody>
-                @foreach ($kod_bank1 as $spk)
-                <tr>
-                  <td><input type="checkbox" class="sub_chk" data-id="{{ $spk -> id}}"></td>
-                  <td><ul> {{ $spk -> kod}}</ul></td>
-                  <td><ul> {{ $spk -> nama}}</ul></td>
-                  <td>
-                    
-                  <button onclick="/kod_bank/{{ $spk -> id}}/edit" class="btn btn-secondary" type="submit"> <a style="color: #ffff" href="/kod_bank/{{ $spk -> id}}/edit"><img width="20" src="/kemaskini.png" alt="">KEMASKINI</a></button>
-                  
-                  </td>
-              
-                  </tr>
-                  @endforeach
-                </tbody>
-              </table>
-        </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <button data-inline="true" style="margin-bottom: 10px" class="btn btn-secondary delete_all" data-url="{{ url('bank_DeleteAll') }}"><i class="far fa-trash-alt"></i> HAPUS</button>
-    </div>
-</div>
-<!--NO JS-->
+<script>
+  function empty() {
+    var x;
+    x = document.getElementById("roll-input").value;
+    if (x == "") {
+        alert("Enter a Valid Roll Number");
+        return false;
+    };
+}
+</script>
 
 <script type="text/javascript">
 

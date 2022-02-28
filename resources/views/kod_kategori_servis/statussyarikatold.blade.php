@@ -1,10 +1,14 @@
 
 @extends('bases')
+h6::before {
+    counter-increment: section;
+    content:  counter(section) ".";
+  }
 @section('content')   
 <div class="col-lg-12 pe-lg-2">
   <div>
     <div class="card-header">
-      <h6 class="mb-0 label-menu">KOD PUSAT KHIDMAT</h6>
+      <h6 class="mb-0 label-menu">KOD STATUS SYARIKAT</h6>
       <br>
       <h1 class="mb-0">KOD</h1>
       <div class="col-mb-8 ps-0">
@@ -38,6 +42,7 @@
             <table class="table" style="text-align: center">
               <thead>
                 <tr>
+                  <th width="50px"><input type="checkbox" id="master"></th>
                   <th>NO.</th>
                   <th>PUSAT KHIDMAT</th>
                   <th>NAMA PENUH</th>
@@ -53,7 +58,7 @@
                   <td> <input name="kumpulan" type="text" class="form-control"></td>
                   <td> <input name="nama" type="text" class="form-control"></td>
                   <td> <input name="namaE" type="text" class="form-control"></td>
-                  {{-- <td> <input name="cid" type="text" class="form-control"></td> --}}
+                  <td> <input name="cid" type="text" class="form-control"></td>
                   <td><button class="btn btn-secondary" type="submit" value="submit">+TAMBAH</button></td>
                   </form>
                 </tr>
@@ -61,29 +66,15 @@
               <tbody>
                 @foreach ($spp_pusat_khidmat as $spk)
                 <tr>
-                  <td>{{ $loop->iteration }}</td>
+                  <td><h6></h6></td>
                   <td><ul> {{ $spk -> kumpulan}}</ul></td>
                   <td><ul> {{ $spk -> nama}}</ul></td>
                   <td><ul> {{ $spk -> namaE}}</ul></td>          
                   <td>
-                    
-                    <div class="row buttons">
-                      <div class="col text-end">
-                        <button class="btn text-end"><a style="color: #ffff" href="/spp_pusat_khidmat/{{ $spk -> id }}/edit"><img src="/i_EDIT.png" width="20" alt=""></a></button>
-                      </div>
-                      <div class="col text-start">
-                        <form action="/spp_pusat_khidmat/{{ $spk -> id }}" method="POST">
-                          @csrf
-                          @method('DELETE')
-                          <button type="submit" style="color: black" class="btn "><img src="/i_TRASH.png" width="20" alt=""></button>
-                          </form>
-                      </div>
-                    </div>
-                   {{-- <button class="btn btn-secondary" type="submit"> <a style="color: #ffff" href="/kod_status_syarikat/{{ $spk -> id }}/edit"><img width="20" src="/kemaskini.png" alt="">KEMASKINI</a></button> --}}
+                  <button class="btn btn-secondary" type="submit"> <a style="color: #ffff" href="/kod_status_syarikat/{{ $spk -> id }}/edit"><img width="20" src="/kemaskini.png" alt="">KEMASKINI</a></button>
                 </td>       
               
-                  </tr> 
-
+                  </tr>
                   @endforeach
                 </tbody>
               </table>
@@ -92,11 +83,10 @@
         <br>
         <br>
         <br>
-        {{-- <button data-inline="true" style="margin-bottom: 10px" class="btn btn-secondary delete_all" data-url="{{ url('kod_status_syarikat_DeleteAll') }}"><i class="far fa-trash-alt"></i> HAPUS</button> --}}
+        <button data-inline="true" style="margin-bottom: 10px" class="btn btn-secondary delete_all" data-url="{{ url('kod_status_syarikat_DeleteAll') }}"><i class="far fa-trash-alt"></i> HAPUS</button>
     </div>
 </div>
 <!--NO JS-->
-{{-- 
 <br>
 <form action="/spp_pusat_khidmat/" method="POST" id="new_servis_pusat_khidmat">
   @csrf
@@ -123,7 +113,8 @@
       </form>
     </td>
     </tr>
+    {{-- counter++; --}}
 @endforeach
-</table> --}}
+</table>
 
 @endsection

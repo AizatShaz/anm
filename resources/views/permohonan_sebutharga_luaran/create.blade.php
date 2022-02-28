@@ -26,7 +26,7 @@
     counter-reset: section;
   }
   
-  h6::before {
+  strong::before {
     counter-increment: section;
     content: "" counter(section) ".";
   }

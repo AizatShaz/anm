@@ -60,7 +60,7 @@
                       <td><ul> {{ $spk -> kod}}</ul></td>
                       <td><ul> {{ $spk -> nama}}</ul></td>
                       <td>
-                  <button class="btn btn-secondary" type="submit"> <a style="color: #ffff" href="/kod_bayaran/{{ $spk -> id }}/edit">Kemaskini</a></button>
+                  <button class="btn btn-secondary" type="submit"> <a style="color: #ffff" href="/kod_bayaran/{{ $spk -> id }}/edit"><img width="20" src="/kemaskini.png" alt="">KEMASKINI</a></button>
                     </td>
                       </tr>
                   @endforeach

@@ -65,7 +65,7 @@
                   <td><ul> {{ $spk -> nama}}</ul></td>
                   <td>
                     
-                  <button onclick="/kod_bank/{{ $spk -> id}}/edit" class="btn btn-secondary" type="submit"> <a style="color: #ffff" href="/kod_bank/{{ $spk -> id}}/edit">Kemaskini</a></button>
+                  <button onclick="/kod_bank/{{ $spk -> id}}/edit" class="btn btn-secondary" type="submit"> <a style="color: #ffff" href="/kod_bank/{{ $spk -> id}}/edit"><img width="20" src="/kemaskini.png" alt="">KEMASKINI</a></button>
                   
                   </td>
               
@@ -81,6 +81,7 @@
         <button data-inline="true" style="margin-bottom: 10px" class="btn btn-secondary delete_all" data-url="{{ url('bank_DeleteAll') }}"><i class="far fa-trash-alt"></i> HAPUS</button>
     </div>
 </div>
+<!--NO JS-->
 
 <script>
   function empty() {

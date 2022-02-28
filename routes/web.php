@@ -113,6 +113,7 @@ Route::delete('kod_daerah_DeleteAll', 'App\Http\Controllers\KodDaerahController@
 Route::resource('/kod_sijil_iso','App\Http\Controllers\KodSijilIsoController'::class);
 
 Route::resource('/kod_status_syarikat','App\Http\Controllers\KodStatusSyarikatController'::class);
+Route::delete('kod_status_syarikat_DeleteAll', 'App\Http\Controllers\KodStatusSyarikatController@deleteAll');
 
 Route::resource('/template_perjanjian_main','App\Http\Controllers\TemplatePerjanjianMainController'::class);
 Route::delete('template_perjanjian_DeleteAll', 'App\Http\Controllers\TemplatePerjanjianMainController@deleteAll');

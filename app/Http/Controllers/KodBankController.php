@@ -70,8 +70,14 @@ class KodBankController extends Controller
      */
     public function edit(kod_bank $kod_bank)
     {
+        $kod_bank1 = kod_bank::all();
+        $kod_bank2 = count($kod_bank1);
+
+        
         return view('kod_bank.edit',[
             'kod_bank'=>$kod_bank,
+            'kod_bank1'=>$kod_bank1,
+            'kod_bank2'=>$kod_bank2,
         ]);
     }
 

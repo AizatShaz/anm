@@ -79,9 +79,9 @@
 </head>
 <div class="row" style="background-color: #2CABE1" >
   <div class="col text-center" style="">
-    <span class="h5" style="color: #fff" id="date"></span>
+    <span class="h5" style="color: #fff" id="datelabel"></span>
     <br />
-    <span class="h5" style="color: #fff" id="time"></span>
+    <span class="h5" style="color: #fff" id="timelabel"></span>
   </div>
   <div class="col text-center" style="">
 
@@ -389,7 +389,8 @@
                 background: #2CABE1;
             }
 
-            .navbar-vertical.navbar-expand-xl .navbar-vertical-content {
+            .navbar-vertical.navbar-expand-xl .navbar-vertical-content 
+            .navbar .navbar-light .navbar-vertical .navbar-expand-xl .navbar-inverted{
                 width: 100%;
                 height: auto;
                 /* padding: 0.5rem 0 0 0; */
@@ -410,6 +411,14 @@
               color: #fff
             }
         }
+        .navbar-vertical.navbar-expand-xl {
+            height: 80%;
+            }
+            /* .navbar .navbar-light .navbar-vertical .navbar-expand-xl .navbar-inverted{
+            padding: 0rem;
+
+
+            } */
 
     </style>
     <?php
@@ -508,8 +517,8 @@
                 if (m < 10) m = "0" + m;
                 if (s < 10) s = "0" + s;
                 if (day < 10) day = "0" + day;
-                document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
-                document.getElementById("date").innerHTML =
+                document.getElementById("timelabel").innerHTML = h + ":" + m + ":" + s;
+                document.getElementById("datelabel").innerHTML =
                     day + " " + month + " " + year;
             }, 1000);
 

@@ -38,7 +38,7 @@
         }
     </script>
     
-    <div class="collapse navbar-collapse" id="navbarVerticalCollapse" style="box-shadow:inset 0 0 10px #000000; ">
+    <div class="collapse navbar-collapse" id="navbarVerticalCollapse" style="box-shadow: 0.5px 0px 0px rgba(0, 0, 0, 0.1);; ">
         <div class="navbar-vertical-content scrollbar" id="checklim" >
             <ul class="navbar-nav flex-column mb-3" id="navbarVerticalNav"> 
                 <div style="background: #2CABE1; width: 100%">
@@ -49,11 +49,11 @@
                     </div>
                     <div class="row">
                                         
-                        <div class="col mb-3" style="align-content: center">
-                            <img style="padding-left: 40px" id="rcorners" src="nuklear_logo.png" alt="" width="80">
+                        <div class="col mb-3 text-end" style="align-content: center">
+                            <img style=" border-radius: 10%;" id="" src="nuklear_logo.png" alt="" width="40" >
                         </div>
-                        <div class="col mb-3">
-                            <h3 class="h5 text-white text-center"><strong>{{ Auth::user()->name }}</strong></h3>
+                        <div class="col mb-3 text-start" style="padding-right: 50px">
+                            <h5 class="h5 text-white text-center"><strong>{{ Auth::user()->name }}</strong></h5>
                         </div>
                     </div>
                 </div>
@@ -77,52 +77,53 @@
                             <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">MODUL JUALAN</span>
                             </div>
                         </a>
-                        <ul class="nav collapse false" id="LOL222">
-                                                   <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL1" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                                                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">PERMOHONAN SEBUTHARGA</span>
-                                                    </div>
+
+                        {{-- <ul class="nav collapse false" id="LOL222"></ul> --}}
+                                                <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL1" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
+                                                <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">PERMOHONAN SEBUTHARGA</span>
+                                                </div>
                                                 </a>
                                                 <ul class="nav collapse false" id="LOL1">
-                                                    <li class="nav-item"><a class="nav-link" href="/jualan/permohonan_sebutharga/permohonan_sebutharga">
-                                                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1"> Permohonan Sebutharga</span></div>
-                                                    </a>
-                                                    <!-- more inner pages--></li>
+                                                <li class="nav-item"><a class="nav-link" href="/jualan/permohonan_sebutharga/permohonan_sebutharga">
+                                                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1"> Permohonan Sebutharga</span></div>
+                                                </a>
+                                                <!-- more inner pages--></li>
                                                 </ul>
                                                 <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL3" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                                                    <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1"> SEBUTHARGA</span>
+                                                <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1"> SEBUTHARGA</span>
+                                                </div>
+                                                </a>
+                                                <ul class="nav collapse false" id="LOL3">
+                                                <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_rfq">
+                                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga RFQ</span>
+                                                </div>
+                                                </a>
+                                                <!-- more inner pages-->
+                                                </li>
+                                                <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga">
+                                                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga</span>
                                                     </div>
-                                                    </a>
-                                                    <ul class="nav collapse false" id="LOL3">
-                                                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_rfq">
-                                                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga RFQ</span>
+                                                </a>
+                                                <!-- more inner pages-->
+                                                </li>
+                                                <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/senarai_sebutharga">
+                                                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Sebutharga</span>
                                                     </div>
-                                                    </a>
+                                                </a>
+                                                <!-- more inner pages-->
+                                                </li>
+                                                <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/kelulusan">
+                                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan</span>
+                                                </div>
+                                                </a>
                                                     <!-- more inner pages-->
-                                                    </li>
-                                                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga">
-                                                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga</span>
-                                                        </div>
-                                                    </a>
-                                                    <!-- more inner pages-->
-                                                    </li>
-                                                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/senarai_sebutharga">
-                                                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Senarai Sebutharga</span>
-                                                        </div>
-                                                    </a>
-                                                    <!-- more inner pages-->
-                                                    </li>
-                                                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/kelulusan">
-                                                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kelulusan</span>
+                                                </li>
+                                                <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_lama">
+                                                    <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga Lama</span>
                                                     </div>
-                                                    </a>
-                                                        <!-- more inner pages-->
-                                                    </li>
-                                                    <li class="nav-item"><a class="nav-link" href="/jualan/sebutharga/sebutharga_lama">
-                                                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Sebutharga Lama</span>
-                                                        </div>
-                                                    </a>
-                                                    <!-- more inner pages-->
-                                                    </li>
+                                                </a>
+                                                <!-- more inner pages-->
+                                                </li>
                                                 </ul>
                                                 <!-- parent pages--><a class="nav-link dropdown-indicator" href="#LOL2" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
                                                     <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">PESANAN</span>
@@ -513,19 +514,19 @@
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bank">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_bank">
                                                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Bank</span>
                                                 </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_bayaran">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_bayaran">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Bayaran</span>
                                             </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_pusat_khidmat">
+                                            <li class="nav-item"><a class="nav-link" href="/spp_pusat_khidmat">
                                                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Pusat Khidmat</span>
                                                 </div>
                                             </a>
@@ -573,7 +574,7 @@
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_template_sijil">
+                                            <li class="nav-item"><a class="nav-link" href="/spp_proses_template_sijil">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Template Sijil</span>
                                             </div>
                                             </a>
@@ -652,7 +653,7 @@
                                             <!-- more inner pages-->
                                             </li>
                                             </ul>
-                        </ul>
+                        
  
                     </div>
                     <div style="padding-top: 50px; background: #ffff" >

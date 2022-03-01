@@ -8,7 +8,7 @@
 <div class="col-lg-12 pe-lg-2">
   <div>
     <div class="card-header">
-      <h6 class="mb-0 label-menu">PROFIL KAKITANGAN</h6>
+      <h6 class="mb-0 label-menu">CARIAN PROFIL PELANGGAN</h6>
       <br>
       <h1 class="mb-0">KOD</h1>
       <div class="col-mb-8 ps-0">

@@ -54,12 +54,12 @@
     </div>
 
     <div class="card-body">
-        <div class="row-sm-12 gx-2">
+        <div class="card row-sm-12 gx-2">
           <div class="text-end">
           <h5 >JUMLAH REKOD: <span style="color: #2CABE1" id="rekod"></span></h5>
           </div>
-          <div class="text-start">
-            <button class="btn btn-secondary" ><a href="/spp_profil_harga_servis/create">+TAMBAH</a></button>
+          <div class="text-start" style="padding-left: 20px">
+            <button class="btn btn-secondary" ><a style="color: #ffff" href="/spp_profil_harga_servis/create">+TAMBAH</a></button>
           </div>
           <br>
           <div class="col-sm-10 mb-12">
@@ -143,7 +143,7 @@
           $('#pusat_perkhidmatan_servis').append('<tr value=""></tr>');
           var counter = 1;
           var n = $( data.aos1 ).length;
-          $( "#rekod" ).text(n);
+          $( "#rekod" ).text(n+0);
           $.each(data.aos1, function(index,value) {
               $('#pusat_perkhidmatan_servis').append(
                 `<tr>

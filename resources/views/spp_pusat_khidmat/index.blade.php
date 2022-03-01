@@ -28,7 +28,7 @@
     </div>
 
     <div class="card-body">
-        <div class="row-sm-12 gx-2">
+        <div class="card row-sm-12 gx-2">
           <div class="text-end">
           <h5 >JUMLAH REKOD: <span style="color: #2CABE1">{{ $spp_pusat_khidmat2 }}</span></h5>
 

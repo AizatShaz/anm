@@ -117,14 +117,16 @@ class SppPusatKhidmatServisController extends Controller
     public function edit( $spp_pusat_khidmat_servis)
     {
         $spp_pusat_khidmat_servis1 = spp_pusat_khidmat::all();
-        // $spp_pusat_khidmat_servis2 = kod_kategori_servis::all();
+        $spp_pusat_khidmat_servis2 = kod_kategori_servis::all();
 
         $spp_pusat_khidmat_servis = spp_pusat_khidmat_servis::where('id', $spp_pusat_khidmat_servis)->first();
+        
 
         return view('spp_pusat_khidmat_servis.edit',[
             'spp_pusat_khidmat_servis'=>$spp_pusat_khidmat_servis,
             'spp_pusat_khidmat_servis1'=>$spp_pusat_khidmat_servis1,
-            // 'spp_pusat_khidmat_servis2'=>$spp_pusat_khidmat_servis2
+            'spp_pusat_khidmat_servis2'=>$spp_pusat_khidmat_servis2,
+            // dd($spp_pusat_khidmat_servis2),
         ]);
     }
 
@@ -135,16 +137,18 @@ class SppPusatKhidmatServisController extends Controller
      * @param  \App\Models\spp_pusat_khidmat_servis  $spp_pusat_khidmat_servis
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, spp_pusat_khidmat_servis $spp_pusat_khidmat_servis)
+    public function update(Request $request, $spp_pusat_khidmat_servis)
     {
         // dd($request);
-        $spp_pusat_khidmat_servis = spp_pusat_khidmat_servis::where('id', $request-> id)->first();
+        $spp_pusat_khidmat_servis = spp_pusat_khidmat_servis::where('id', $spp_pusat_khidmat_servis)->first();
         $spp_pusat_khidmat_servis->idPKhidmat = $request->idPKhidmat;
         $spp_pusat_khidmat_servis->idKatServis = $request->idKatServis;
         $spp_pusat_khidmat_servis->nama = $request->nama;
         $spp_pusat_khidmat_servis->catatan = $request->catatan;
         $spp_pusat_khidmat_servis->namaE = $request->namaE;
         $spp_pusat_khidmat_servis->catatanE = $request->catatanE;
+        // dd($spp_pusat_khidmat_servis);
+
 
         $spp_pusat_khidmat_servis->save();
         return redirect('/spp_pusat_khidmat_servis');

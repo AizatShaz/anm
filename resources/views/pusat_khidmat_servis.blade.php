@@ -115,6 +115,55 @@
 <!--JS-->
 <br>
 
+<br>
+{{-- <form action="/spp_pusat_khidmat_servis/create" method="POST" id="new_servis_pusat_khidmat">
+  @csrf
+  <input type="text" name="pusat_perkhidmatan12" id="pusat_perkhidmatan12"  hidden>
+  <input type="text" name="kategori_servis1" id="kategori_servis1" hidden>
+<br>
+<br>
+  <label for="pusat_perkhidmatan1">Pusat Perkhimatan:</label>
+<select name="pusat_perkhidmatan1" id="pusat_perkhidmatan1" >
+  <option value=""> Sila pilih:</option>
+ @foreach  ($spp_pusat_khidmat_servis as $mo)
+     <option value="{{ $mo-> id }}">{{ $mo -> kumpulan  }} - {{ $mo -> nama  }}</option>
+ @endforeach
+</select>
+<br>
+<button type="button" id="new_spp">Add spp_pusat_khidmat_servis</button>
+</form> --}}
+<br>
+<br>
+  <label for="pusat_perkhidmatan1">Pusat Perkhimatan:</label>
+<select  name="pusat_perkhidmatan1" id="pusat_perkhidmatan1" >
+  <option value=""> Sila pilih:</option>
+ @foreach  ($spp_pusat_khidmat_servis as $mo)
+     <option value="{{ $mo-> id }}">{{ $mo -> kumpulan  }} - {{ $mo -> nama  }}</option>
+ @endforeach
+</select>
+<br>
+<br>
+<div id="kat_servis">
+  <label for="kategori_servis">Kategori Perkhimatan:</label>
+<select style="size: 100px" name="kategori_servis" id="kategori_servis"></select>
+</div>
+<br>
+<br>
+<br>
+<a href="/spp_pusat_khidmat_servis/create">TAMBAH SERVIS PUSAT KHIDMAT</a>
+<table>
+  <tr>
+    <th>BIL</th>
+    <th>KHIDMAT/PRODUK</th>
+    <th>CATATAN</th>
+  </tr>
+  <tbody id="pusat_perkhidmatan_servis">
+  </tbody>
+
+</table>
+<br>
+<br>
+
 <script type="text/javascript">
 
   $(document).ready(function(){

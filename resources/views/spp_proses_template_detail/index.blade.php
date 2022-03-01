@@ -42,14 +42,14 @@ tr:nth-child(even) {
     <td><button type="submit" value="submit">TAMBAH</button></td>
   </form>
   </tr> --}}
-  @foreach ($template_perjanjian_detail as $spk)
+  @foreach ($spp_proses_template_detail as $spk)
   <tr>
     <td style="max-width: 10px"><ul>{{ $spk -> tpd_urutan}}</ul></td>
     <td style="max-width: 10px" ><ul><a href=""></a>{{ $spk -> tpd_level}}</ul></td>
     <td style="max-width: 10\5px" ><ul><a href=""></a>{{ $spk -> tpd_bil}}</ul></td>
     <td style="max-width: 550px"><ul><a href=""></a>{{ $spk -> tpd_keterangan}}</ul></td>
     <td>
-    <a href="/template_perjanjian_detail/{{ $spk -> id}}/edit">Kemaskini</a>
+    <a href="/spp_proses_template_detail/{{ $spk -> id}}/edit">Kemaskini</a>
     </td>
 
     </tr>

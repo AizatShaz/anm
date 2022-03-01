@@ -125,6 +125,7 @@ Route::resource('/template_perjanjian_detail','App\Http\Controllers\TemplatePerj
 Route::resource('/spp_proses_template_detail','App\Http\Controllers\SppProsesTemplateDetailController'::class);
 
 Route::resource('/spp_proses_template_sijil','App\Http\Controllers\SppProsesTemplateSijilController'::class);
+Route::delete('spp_proses_template_sijil_DeleteAll', 'App\Http\Controllers\SppProsesTemplateSijilController@deleteAll');
 
 Route::resource('/spp_proses_template_sijil_detail','App\Http\Controllers\SppProsesTemplateSijilDetailController'::class);
 Route::post('/spp_proses_template_sijil_detail_index','App\Http\Controllers\SppProsesTemplateSijilDetailController@index');
@@ -142,6 +143,8 @@ Route::post('carian_kakitangan','App\Http\Controllers\PsmBiodataController@getKa
 Route::resource('/spp_pelanggan_syarikat','App\Http\Controllers\SppPelangganSyarikatController'::class);
 Route::post('carian_pelanggan','App\Http\Controllers\SppPelangganSyarikatController@getPelanggan');
 Route::post('carian_pelanggan_tambah','App\Http\Controllers\SppPelangganSyarikatController@getPelangganTambah');
+
+Route::resource('/kod_proses_config','App\Http\Controllers\KodProsesConfigController'::class);
 
 // Route::get('/jualan/pesanan/jana_invois','App\Http\Controllers\JualanInvoisController@jana_invois');
 

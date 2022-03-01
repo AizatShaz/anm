@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\spp_proses_template_detail;
 use App\Models\spp_proses_template_sijil;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class SppProsesTemplateSijilController extends Controller
 {
@@ -99,5 +100,11 @@ class SppProsesTemplateSijilController extends Controller
         $spp_proses_template_sijil->delete();
         return redirect('/spp_proses_template_sijil')
         ->with('success', ' deleted successfully');
+    }
+    public function deleteAll(Request $request)
+    {
+        $ids = $request->ids;
+        DB::table("spp_proses_template_sijils")->whereIn('id',explode(",",$ids))->delete();
+        return response()->json(['success'=>"Products Deleted successfully."]);
     }
 }

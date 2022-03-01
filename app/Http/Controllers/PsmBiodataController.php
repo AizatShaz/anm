@@ -34,11 +34,14 @@ class PsmBiodataController extends Controller
             ->orderBy('biopin', 'asc')
             ->get();
         }
+        $psm_biodata3 = count($searchNama);
+
         
         return view('psm_biodata.carian',[
             'psm_biodata'=>$searchNama,
             'psm_biodata2'=>$spp_pusat_khidmat,
             'psm_biodata1'=>$psm_biodata1,
+            'psm_biodata3'=>$psm_biodata3,
             // 'psm_biodata3'=>$psm_biodata,
         ]);
     }

@@ -23,8 +23,8 @@
               <select name="kategori_servis" id="kategori_servis"></select>
               <br>
 
-              <input class="form-control" value="pusat_perkhidmatan"  type="text" id="idPKhidmat" name="idPKhidmat" >
-              <input class="form-control" value="kategori_servis"  type="text" id="idKatServis" name="idKatServis" >
+              <input hidden class="form-control" value="pusat_perkhidmatan"  type="text" id="idPKhidmat" name="idPKhidmat" >
+              <input hidden class="form-control" value="kategori_servis"  type="text" id="idKatServis" name="idKatServis" >
 
               <label style=" padding-right: 20px" for="nama">JENIS PERKHIDMATAN (BM) :</label>
               <input class="form-control" value=""  type="text" id="nama" name="nama" >

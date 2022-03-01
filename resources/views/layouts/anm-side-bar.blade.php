@@ -30,7 +30,7 @@
         container.classList.add('container-fluid');
     }
 </script>
-<nav class="navbar navbar-light navbar-vertical navbar-expand-xl">
+<nav class="navbar navbar-light navbar-vertical  navbar-expand-xl" >
     <script>
         var navbarStyle = localStorage.getItem("navbarStyle");
         if (navbarStyle && navbarStyle !== 'transparent') {
@@ -38,8 +38,8 @@
         }
     </script>
     
-    <div class="collapse navbar-collapse" id="navbarVerticalCollapse" style="border-block-color: black">
-        <div class="navbar-vertical-content scrollbar" id="checklim">
+    <div class="collapse navbar-collapse" id="navbarVerticalCollapse" style="box-shadow:inset 0 0 10px #000000; ">
+        <div class="navbar-vertical-content scrollbar" id="checklim" >
             <ul class="navbar-nav flex-column mb-3" id="navbarVerticalNav"> 
                 <div style="background: #2CABE1; width: 100%">
                     <div class="row mt-4" >
@@ -471,31 +471,31 @@
                                                 </a>
                                                 <!-- more inner pages-->
                                                 </li>
-                                                <li class="nav-item"><a class="nav-link" href="/jualan/kod/servis_pusat_khidmat">
+                                                <li class="nav-item"><a class="nav-link" href="/spp_pusat_khidmat_servis">
                                                     <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Servis Pusat Khidmat</span>
                                                     </div>
                                                 </a>
                                                 <!-- more inner pages-->
                                                 </li>
-                                                <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_harga">
+                                                <li class="nav-item"><a class="nav-link" href="/spp_profil_harga_servis">
                                                     <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Profil Harga</span>
                                                     </div>
                                                 </a>
                                                 <!-- more inner pages-->
                                                 </li>
-                                                <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_kakitangan">
+                                                <li class="nav-item"><a class="nav-link" href="/psm_biodata">
                                                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Profil Kakitangan</span>
                                                 </div>
                                                 </a>
                                                 <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/profil_syarikat">
+                                            <li class="nav-item"><a class="nav-link" href="/spp_profil_syarikat">
                                                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Profil Syarikat</span>
                                                 </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/pelanggan">
+                                            <li class="nav-item"><a class="nav-link" href="/spp_pelanggan_syarikat">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Pelanggan</span>
                                             </div>
                                             </a>
@@ -531,37 +531,37 @@
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_iso">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_sijil_iso">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Iso</span>
                                             </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_status_syarikat">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_status_syarikat">
                                                 <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Status Syarikat</span>
                                                 </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_negeri">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_negeri">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Negeri</span>
                                             </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_daerah">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_daerah">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Daerah</span>
                                             </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_proses">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Proses</span>
                                             </div>
                                             </a>
                                             <!-- more inner pages-->
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/jualan/kod/kod_proses_config">
+                                            <li class="nav-item"><a class="nav-link" href="/kod_proses_config">
                                             <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Kod Proses Config</span>
                                             </div>
                                             </a>

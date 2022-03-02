@@ -656,19 +656,23 @@
                         
  
                     </div>
-                    <div style="padding-top: 50px; background: #ffff" >
-                        <form method="POST" action="{{ route('logout') }}">
-                            @csrf
-                            <div class="col d-grid gap-2">
-                                <button type="submit" class="btn btn-light btn-logout">Log Keluar</button>
-                            </div>
-                        </form>
-                </div>
+
                 </li>
             </ul>
+            <div style=" text-center padding-top: 50px; background: #ffff" >
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <div class="col d-grid gap-2">
+                        <button type="submit" class="btn btn-light btn-logout">Log Keluar</button>
+                    </div>
+                </form>
         </div>
+        </div>
+        
     </div>
+
 </nav>
+
 
 <script>
     // (function($) {

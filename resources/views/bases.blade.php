@@ -412,7 +412,7 @@
             }
         }
         .navbar-vertical.navbar-expand-xl {
-            height: 80%;
+            height: 90%;
             }
             /* .navbar .navbar-light .navbar-vertical .navbar-expand-xl .navbar-inverted{
             padding: 0rem;
@@ -460,10 +460,10 @@
         </div>
 
 
-        <footer class="anm-bg-dg" style="color:">
+        <footer class="anm-bg-dg" style="background-color: #2CABE1 ">
             <div class="row p-4">
                 <div class="col">
-                    <div class="text-600 " style="color: black">
+                    <div class="text-black " style="color: ">
                       Copyright © 2010-2020 AGENSI NUKLEAR MALAYSIA (MOSTI)
                     </div>
                 </div>

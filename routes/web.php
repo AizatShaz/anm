@@ -4,6 +4,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\TestController;
 use App\Models\Test;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,6 +37,12 @@ Route::get('/dashboard', function () {
 
 Route::get('/dashboard1', function () {
     return view('dashboard1');
+});
+Route::get('/permohonan-sebutharga', [HomeController::class, 'permohonanSebutharga']);
+Route::get('/sebutharga-rfq', [HomeController::class, 'sebuthargaRfq']);
+
+Route::prefix('kad-kerja')->group(function () {
+	Route::get('/jana-kad-kerja', [HomeController::class, 'janaKadKerja']);
 });
 
 // Route::get('/permohonan_sebutharga', function () {

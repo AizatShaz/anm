@@ -44,18 +44,26 @@
                 <div style="background: #2CABE1; width: 100%">
                     <div class="row mt-4" >
                         <div class="col">
-                            <h5 class="text-white text-center">Selamat Datang !</h5>
+                            <h5 class="text-white text-start">Selamat Datang !</h5><br>
                         </div>
+
                     </div>
-                    <div class="row">
+                    <div style="padding-left: 30px; padding-bottom: 30px">
+                        <img style=" border-radius: 10%; float: left; " id="" src="nuklear_logo.png" alt="" width="40" >
+                        <h3 style="padding-left: 50px" class=" text-white text-start"><strong>{{ Auth::user()->name }}</strong></h3>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    {{-- <div class="row" style="padding-right: 0%; padding-left: 0%">
                                         
                         <div class="col mb-3 text-end" style="align-content: center">
-                            <img style=" border-radius: 10%;" id="" src="nuklear_logo.png" alt="" width="40" >
                         </div>
-                        <div class="col mb-3 text-start" style="padding-right: 50px">
+                        <div class="col mb-3 text-start" style="padding-right: 50px;  float: right">
                             <h5 class="h5 text-white text-center"><strong>{{ Auth::user()->name }}</strong></h5>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div  style="background: #ffff">
                     <li class="nav-item mx-3 mx-md-0">
@@ -74,7 +82,7 @@
                             </div>
                         </a>
                         <!-- parent pages--><a style="background-color: #113854" class="nav-link dropdown-indicator" href="#LOL222" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                            <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">MODUL JUALAN</span>
+                            <div class="d-flex align-items-center"><span class="nav-link-icon"></span><span class="nav-link-text ps-1">MODUL PERKHIDMATAN JUALAN</span>
                             </div>
                         </a>
 

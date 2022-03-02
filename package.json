@@ -18,10 +18,14 @@
         "lodash": "^4.17.19",
         "postcss": "^8.2.1",
         "postcss-import": "^12.0.1",
-        "tailwindcss": "^2.0.2"
+        "tailwindcss": "^2.0.2",
+        "vue-loader": "^17.0.0",
+        "vue-template-compiler": "^2.6.14"
     },
     "dependencies": {
         "datatables.net": "^1.11.3",
-        "datatables.net-dt": "^1.11.3"
+        "datatables.net-dt": "^1.11.3",
+        "vue": "^3.2.31",
+        "vue-stepper": "^1.4.2"
     }
 }

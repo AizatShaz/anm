@@ -75,6 +75,22 @@
             userLinkRTL.setAttribute('disabled', true);
         }
     </script>
+            <style>
+                .button_w3 {
+           /* Green */
+          border: none;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          
+        }
+        .buttonw3 {border-radius: 80%;}
+            </style>
     
 </head>
 <div class="row" style="background-color: #2CABE1" >
@@ -99,6 +115,13 @@
 
   </div>
   <div class="col text-center" style="">
+    <button style="background-color: #1D2550;" class="button_w3 buttonw3"> </button>
+    <button style="background-color: #902A2C;" class="button_w3 buttonw3"></button>
+    <button style="background-color: #CB5F33;" class="button_w3 buttonw3"></button>
+    <button style="background-color: #1A6222;" class="button_w3 buttonw3"></button>
+    <button style="background-color: #ffff;" class="button_w3 buttonw3"></button>
+    <button style="background-color: #ffff;" class="button_w3 buttonw3"></button>
+
 
   </div>
 </div>
@@ -419,6 +442,9 @@
 
 
             } */
+            /* .navbar-vertical.navbar-inverted .navbar-vertical-content {
+                 max-height: calc(100vh - 4.3125rem - 1rem) !important;
+                } */
 
     </style>
     <?php
@@ -463,7 +489,7 @@
         <footer class="anm-bg-dg" style="background-color: #2CABE1 ">
             <div class="row p-4">
                 <div class="col">
-                    <div class="text-black " style="color: ">
+                    <div class=" text-black " style="color: ">
                       Copyright © 2010-2020 AGENSI NUKLEAR MALAYSIA (MOSTI)
                     </div>
                 </div>

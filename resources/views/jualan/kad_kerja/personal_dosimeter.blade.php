@@ -258,7 +258,8 @@
 <label for="">RECEIVER NAME:</label>
 <input type="text" name="" id="">
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <label for="">TARIKH:</label>
 <input type="date" name="" id="">

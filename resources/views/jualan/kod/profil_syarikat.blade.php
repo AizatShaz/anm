@@ -22,7 +22,8 @@
     </select>
     <br>
     <br>
-    <button>CARIAN</button>
+    <button><i class="bi bi-search"></i>CARIAN</button>
+
     <br>
     <button>TAMBAH SYARIKAT BARU</button>
     <br>
@@ -78,7 +79,8 @@
 
 
     <br>
-    <button>CARIAN</button>
+    <button><i class="bi bi-search"></i>CARIAN</button>
+
     <br>
     <button>TAMBAH SYARIKAT BARU</button>
     <br>

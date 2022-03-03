@@ -15,7 +15,8 @@
 <input type="text" name="" id="">
 <br>
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <br>
 <table>

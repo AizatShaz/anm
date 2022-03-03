@@ -20,7 +20,8 @@
 <br>
 <br>
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <table>
     <thead>

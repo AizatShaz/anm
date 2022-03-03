@@ -23,7 +23,8 @@
 <input type="text" name="" id="">
 <p>*Cth : NM/JOB/2010-28277</p>
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <br>
 <br>

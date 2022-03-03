@@ -19,7 +19,8 @@
 <label for="">NO. SEBUTHARGA</label>
 <input type="text" name="" id="">
 <label for="">*Cth : NM/QUO/2010-10000</label>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <br>
 <table>

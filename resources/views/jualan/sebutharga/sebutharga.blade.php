@@ -15,7 +15,8 @@
 <label for="">CATATAN :</label>
 <input type="text" id="" name="" >
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <label for="">Pusat Perkhimatan:</label>
 <select name="" id="" >
@@ -186,7 +187,8 @@
 <label for="">NO. PELANGGAN: </label>
 <input type="text" id="" name="" >
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <h5>CARIAN NAMA PELANGGAN: </h5>
 <table>

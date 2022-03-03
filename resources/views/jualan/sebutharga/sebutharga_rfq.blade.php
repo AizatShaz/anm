@@ -10,7 +10,8 @@
 <br>
 <label for="">*Cth : NM / RFQ / 2010-000000</label>
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 
 <br>
 <label for="">CARIAN UNTUK NO PERMOHONAN SEBUTHARGA:</label>

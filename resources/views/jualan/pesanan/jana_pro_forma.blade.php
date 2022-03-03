@@ -14,7 +14,8 @@
 <label for="">NO. PERJANJIAN/PERJANJIAN BERJADUAL:</label>
 <input type="text" id="" name="" >
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <table>
     <thead>
         <tr>

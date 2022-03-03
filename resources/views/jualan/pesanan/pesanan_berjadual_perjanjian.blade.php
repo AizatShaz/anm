@@ -11,7 +11,8 @@
 <label for="">NO AKAUN PELANGGAN:</label>
 <input type="text" id="" name="" >
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <h5>CARIAN NAMA PELANGGAN: RUMBIA</h5>
 <table>
     <thead>

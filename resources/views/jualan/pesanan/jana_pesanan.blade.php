@@ -13,7 +13,8 @@
 <br>
 <label for="">*Cth : NM / RFQ / 2010-000000</label>
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 
 <h3>CARIAN UNTUK NO PERMOHONAN SEBUTHARGA: "NM / RFQ / 2010-000000"</h3>
 <table>

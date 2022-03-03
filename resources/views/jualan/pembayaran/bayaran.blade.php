@@ -23,7 +23,8 @@
 <p>Cth : NM/PRO/2010-28277</p>
 <br>
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <br>
 <table>

@@ -30,7 +30,8 @@
     <label for="">NO PERJANJIAN/PESANAN BERJADUAL:</label>
     <input type="text" name="" id="">
     <br>
-    <button>CARIAN</button>
+    <button><i class="bi bi-search"></i>CARIAN</button>
+
     <br>
     <br>
 <table>

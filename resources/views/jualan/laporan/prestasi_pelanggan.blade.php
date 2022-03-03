@@ -17,7 +17,8 @@
 <label for="">BULAN & TAHUN:</label>
 <input type="month" name="" id="datepicker" placeholder="MARCH 2019" >
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <br>
 <h5>LAPORAN PRESTASI PELANGGAN / KUMPULAN (MENGIKUT INVOIS) BAGI BULAN <br> MEI 2020</h5>

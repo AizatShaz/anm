@@ -18,7 +18,8 @@
 <p>Cth : NM/JOB/2010-28277</p>
 <br>
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 
 <!--PAGE-->

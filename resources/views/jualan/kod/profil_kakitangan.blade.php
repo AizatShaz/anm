@@ -18,7 +18,8 @@
     </select>
     <br>
     <br>
-    <button>CARIAN</button>
+    <button><i class="bi bi-search"></i>CARIAN</button>
+
     <button>CARI SEMUA</button>
     <br>
     <button>TAMBAH REKOD </button>

@@ -12,7 +12,8 @@
 <label for="">/</label>
 <input type="date" name="" id="">
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <table>
     <thead>
@@ -39,7 +40,8 @@
 <label for="">/</label>
 <input type="date" name="" id="">
 <br>
-<button>CARIAN</button>
+<button><i class="bi bi-search"></i>CARIAN</button>
+
 <br>
 <table>
     <thead>
